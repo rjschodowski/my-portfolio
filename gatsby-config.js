@@ -1,7 +1,7 @@
 module.exports = {
   
   siteMetadata: {
-    title: 'R.J. Schodowski',
+    title: 'R.J. SCHODOWSKI',
     author: 'R.J. Schodowski'
   },
 
