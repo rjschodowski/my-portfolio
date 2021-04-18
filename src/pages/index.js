@@ -7,9 +7,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home"/>
-      <h1>Hi.</h1>
-      <h2>I'm R.J. Schodowski, living in beautiful Michigan.</h2>
-      <p>Need a developer? <Link to="https://twitter.com/RJSchodowski">Contact me.</Link></p>
+      <h1>Hi! I'm R.J.</h1>
+      <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
+      <Link to="/about">More about me</Link>
     </Layout>
   )
 }
