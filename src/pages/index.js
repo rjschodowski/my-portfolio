@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
+// import Profileimage from '../images/profilephoto.jpg'
 
 const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home"/>
+      {/* <Profileimage /> */}
       <h1>Hi! I'm R.J.</h1>
       <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
       <Link to="/about">More about me</Link>
