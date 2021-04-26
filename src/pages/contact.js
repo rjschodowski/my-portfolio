@@ -24,7 +24,14 @@ export default function BasicTextFields() {
                     <TextField id="standard-basic" label="Name" />
                     <TextField id="standard-basic" label="Subject" />
                     <TextField id="standard-basic" label="Email Address" />
-                    <TextField id="standard-basic" label="Message" />
+                    <TextField
+                        id="standard-multiline-static"
+                        label="Messages"
+                        multiline
+                        rows={5}
+                        defaultValue="Default Value"
+                        variant="filled"
+                        />
                 </form>
             </Layout>
     )
