@@ -29,8 +29,6 @@ export default function BasicTextFields() {
                         label="Messages"
                         multiline
                         rows={5}
-                        defaultValue="Default Value"
-                        variant="filled"
                         />
                 </form>
             </Layout>
