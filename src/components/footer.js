@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { footer } from './footer.module.css'
+import { social } from './footer.module.css'
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
@@ -15,7 +16,7 @@ const Footer = () => {
 
     return (
         <div className={footer}>
-            <ul>
+            <ul className={social}>
                 <li><a href="https://github.com/rjschodowski" alt="R.J. Schodowski GitHub profile" target="_blank" rel="noreferrer">github</a></li>
                 <li><a href="https://www.linkedin.com/in/rjschodowski/" alt="R.J. Schodowski LinkedIn profile" target="_blank" rel="noreferrer">linkedin</a></li>
                 <li><a href="https://twitter.com/RJSchodowski" alt="R.J. Schodowski Twitter profile" target="_blank" rel="noreferrer">twitter</a></li>
