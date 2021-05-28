@@ -16,11 +16,11 @@ const Header = () => {
 
     return (
         <header className={header}>
-            <h6>
+            <h3>
                 <Link className={title} to="/">
                     {data.site.siteMetadata.title}
                 </Link>
-            </h6>
+            </h3>
             <nav>
                 <ul className={navList}>
                     <li>

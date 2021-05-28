@@ -1,5 +1,7 @@
 .header {
   padding: 1rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
@@ -10,6 +12,7 @@
 
 .nav-list {
   display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
 }
