@@ -12,7 +12,7 @@ const IndexPage = () => {
     <Layout>
       <Head title="Home"/>
       <StaticImage
-        src="../images/profilephoto.jpg"
+        src="../images/profilephoto-removebg.png"
         alt="profile photo of R.J. Schodowski"
         placeholder="blurred"
         layout="fixed"
