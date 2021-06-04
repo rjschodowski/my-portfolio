@@ -20,13 +20,13 @@ const IndexPage = () => {
               <ArrowRightAltIcon />
             </IconButton>
           </Link>
-          <StaticImage
+          {/* <StaticImage
             src="../images/profilephoto-removebg.png"
             alt="profile photo of R.J. Schodowski"
             placeholder="blurred"
             layout="fixed"
             maxWidth={100}
-            maxHeight={100} />
+            maxHeight={100} /> */}
         </div>
       </div>
     </Layout>
