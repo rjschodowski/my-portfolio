@@ -11,22 +11,24 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home"/>
-      <div>
-        <div>
+      <div className={body-container}>
+        <div className={introduction-section}>
           <h1>Hi! I'm R.J.</h1>
           <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>       
           <Link to="/about">More about me
             <IconButton>
               <ArrowRightAltIcon />
             </IconButton>
-          </Link>
-          {/* <StaticImage
+          </Link>        
+        </div>
+        <div className={hero-image}>
+        <StaticImage
             src="../images/profilephoto-removebg.png"
             alt="profile photo of R.J. Schodowski"
             placeholder="blurred"
-            layout="fixed"
-            maxWidth={100}
-            maxHeight={100} /> */}
+            layout="constrained"
+            maxWidth={600}
+            maxHeight={600} />
         </div>
       </div>
     </Layout>
