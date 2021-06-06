@@ -5,7 +5,7 @@ import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconButton from '@material-ui/core/IconButton';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import { bodyContainer, introductionSection, heroImage }
+import { bodyContainer, introductionSection, heading, headingDescription, heroImage } from '../styles/index.module.css'
 
 
 const IndexPage = () => {
@@ -14,8 +14,10 @@ const IndexPage = () => {
       <Head title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h1>Hi! I'm R.J.</h1>
-          <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>       
+          <h1 className={heading} className="transition ease-in duration-700">Hi! I'm R.J.</h1>
+          <div className={headingDescription}>
+            <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
+            </div>       
           <Link to="/about">More about me
             <IconButton>
               <ArrowRightAltIcon />
@@ -28,8 +30,8 @@ const IndexPage = () => {
             alt="profile photo of R.J. Schodowski"
             placeholder="blurred"
             layout="constrained"
-            maxWidth={600}
-            maxHeight={600} />
+            maxWidth={800}
+            maxHeight={800} />
         </div>
       </div>
     </Layout>

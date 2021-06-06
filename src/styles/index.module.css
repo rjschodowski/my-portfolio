@@ -1,10 +1,18 @@
-@media only screen and (min-width: 640px) {
-  .body-container {
-    display: flex;
-    flex-direction: column;
-  }
+.heading {
+  font-size: 3.75rem;
+}
 
-  .hero-image {
-    align-self: flex-end;
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  align-self: flex-end;
+}
+
+@media only screen and (min-width: 640px) {
+  .introduction-section {
+    margin: 4rem 7rem 0;
   }
 }
