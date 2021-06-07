@@ -27,7 +27,6 @@ const IndexPage = () => {
           </Link>        
         </div>
         <div className={heroImage}>
-        <div>
           <StaticImage
               src="../images/profilephoto-removebg.png"
               alt="profile photo of R.J. Schodowski"
@@ -35,7 +34,6 @@ const IndexPage = () => {
               layout="constrained"
               maxWidth={800}
               maxHeight={800} />
-        </div>
         </div>
       </div>
     </Layout>

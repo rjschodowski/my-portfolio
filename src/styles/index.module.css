@@ -12,8 +12,13 @@
 }
 
 @media only screen and (min-width: 640px) {
+  .body-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
   .introduction-section {
-    margin: 4rem 7rem 0;
+    flex: 1 1;
   }
 
   .heading {
