@@ -15,4 +15,12 @@
   .introduction-section {
     margin: 4rem 7rem 0;
   }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .heading-description {
+    font-size: 1.25rem;
+  }
 }

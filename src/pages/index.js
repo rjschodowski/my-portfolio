@@ -14,7 +14,7 @@ const IndexPage = () => {
       <Head title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h1 className={heading} className="transition ease-in duration-700">Hi! I'm R.J.</h1>
+          <h1 className={heading}>Hi! I'm R.J.</h1>
           <div className={headingDescription}>
             <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
             </div>       
