@@ -14,10 +14,12 @@ const IndexPage = () => {
       <Head title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h1 className={heading}>Hi! I'm R.J.</h1>
+          <div>
+            <h1 className={heading}>Hi! I'm R.J.</h1>
+          </div>
           <div className={headingDescription}>
             <p>I am a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
-            </div>       
+          </div>       
           <Link to="/about">More about me
             <IconButton>
               <ArrowRightAltIcon />
@@ -25,13 +27,15 @@ const IndexPage = () => {
           </Link>        
         </div>
         <div className={heroImage}>
-        <StaticImage
-            src="../images/profilephoto-removebg.png"
-            alt="profile photo of R.J. Schodowski"
-            placeholder="blurred"
-            layout="constrained"
-            maxWidth={800}
-            maxHeight={800} />
+        <div>
+          <StaticImage
+              src="../images/profilephoto-removebg.png"
+              alt="profile photo of R.J. Schodowski"
+              placeholder="blurred"
+              layout="constrained"
+              maxWidth={800}
+              maxHeight={800} />
+        </div>
         </div>
       </div>
     </Layout>
