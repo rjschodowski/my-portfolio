@@ -19,6 +19,7 @@
     "fontsource-roboto": "^4.0.0",
     "gatsby": "^3.6.2",
     "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-material-ui": "^3.0.1",
     "gatsby-plugin-react-helmet": "^4.6.0",
     "gatsby-plugin-sass": "^4.6.0",
     "gatsby-plugin-sharp": "^3.6.0",
