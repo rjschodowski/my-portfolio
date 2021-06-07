@@ -2,12 +2,15 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
+import { StaticImage } from 'gatsby-plugin-image'
+import { heading } from '../styles/about.module.css'
+
 
 const About = () => {
     return (
         <Layout>
             <Head title="About"/>
-            <h2>My Story</h2>
+            <h2 className={heading}>My Story</h2>
             <p>Hi! I'm R.J., a social-minded web developer who gets major fulfillment in coding projects that positively impact people from all walks of life.</p>
             <p>It was my curiosity of coding languages paired with my social work background and drive to get information to people in need that 
                led me to web development. From my first line of rendered code to the web browser I instantly unearthed a new passion: building web technology
@@ -22,6 +25,13 @@ const About = () => {
             <p>I'm currently looking to contribute my skills to a team where I can prove my skills while growing in my capabilities. If you are looking for a
                 highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
             <p><Link to="/contact">Want to work with me? Reach out</Link>.</p>
+            <StaticImage
+              src="../images/profilephoto-removebg.png"
+              alt="profile photo of R.J. Schodowski"
+              placeholder="blurred"
+              layout="constrained"
+              maxWidth={800}
+              maxHeight={800} />
         </Layout>
     )
 }
