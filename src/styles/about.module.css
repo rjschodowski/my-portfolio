@@ -21,6 +21,10 @@
     display: flex;
   }
 
+  .heading {
+    text-align: end;
+  }
+
   .content-text {
     flex: 1;
   }
