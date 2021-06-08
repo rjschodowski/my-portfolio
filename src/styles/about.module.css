@@ -16,6 +16,11 @@
   }
 
   .content-text {
-    flex: 0 1;
+    flex: 2;
+  }
+
+  .content-image {
+    flex: 1;
+    margin-right: 5rem;
   }
 }
