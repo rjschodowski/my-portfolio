@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading } from '../styles/contact.module.css'
+import { heading } from '../styles/projects.module.css'
 
 const Projects = () => {
     return (
