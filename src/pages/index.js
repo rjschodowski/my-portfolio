@@ -14,12 +14,8 @@ const IndexPage = () => {
       <Head title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <div>
-            <h1 className={heading}>Hi! I'm R.J.</h1>
-          </div>
-          <div className={headingDescription}>
-            <p>I am a social-minded web developer who finds major fulfillment in coding projects that positively impact people from all walks of life.</p>
-          </div>       
+          <h1 className={heading}>Hi! I'm R.J.</h1>
+          <p className={headingDescription}>I am a social-minded web developer who finds major fulfillment in coding projects that positively impact people from all walks of life.</p>       
           <Link to="/about">More about me
             <IconButton>
               <ArrowRightAltIcon />
