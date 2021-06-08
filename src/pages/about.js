@@ -10,7 +10,7 @@ const About = () => {
     return (
         <Layout>
             <Head title="About"/>
-            <h2 className={heading}>My Story</h2>
+            <h1 className={heading}>My Story</h1>
             <div className={contentContainer}>
                 <div className={contentImage}>
                     <StaticImage

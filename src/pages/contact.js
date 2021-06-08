@@ -21,7 +21,7 @@ export default function BasicTextFields() {
     return (
             <Layout>
                 <Head title="Contact"/>
-                <h1>Contact</h1>
+                <h1 className={heading}>Contact</h1>
                 <form className={classes.root} noValidate autoComplete="off">
                     <TextField id="standard-basic" label="Name" />
                     <TextField id="standard-basic" label="Subject" />
