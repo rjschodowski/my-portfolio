@@ -16,7 +16,7 @@
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 800px) {
   .content-container {
     display: flex;
   }
@@ -26,7 +26,7 @@
   }
 
   .content-image {
-    margin-right: 2rem;
+    margin-right: 6rem;
     align-self: flex-start;
   }
 }
