@@ -4,7 +4,7 @@ import Head from '../components/head'
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import { heading } from '../styles/contact.module.css'
+import { heading, contactContainer } from '../styles/contact.module.css'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,20 +22,22 @@ export default function BasicTextFields() {
     return (
             <Layout>
                 <Head title="Contact"/>
-                <h1 className={heading}>Contact</h1>
-                <div>
-                  <form className={classes.root} noValidate autoComplete="off">
-                      <TextField id="standard-basic" label="Name" />
-                      <TextField id="standard-basic" label="Subject" />
-                      <TextField id="standard-basic" label="Email Address" />
-                      <TextField
-                          id="standard-multiline-static"
-                          label="Messages"
-                          multiline
-                          rows={5}
-                          />
-                  </form>
-                  <Button variant="contained" color="primary">Submit</Button>
+                <div className={contactContainer}>
+                  <h1 className={heading}>Contact</h1>
+                  <div>
+                    <form className={classes.root} noValidate autoComplete="off">
+                        <TextField id="standard-basic" label="Name" />
+                        <TextField id="standard-basic" label="Subject" />
+                        <TextField id="standard-basic" label="Email Address" />
+                        <TextField
+                            id="standard-multiline-static"
+                            label="Messages"
+                            multiline
+                            rows={5}
+                            />
+                    </form>
+                    <Button variant="contained" color="primary">Submit</Button>
+                  </div>
                 </div>
             </Layout>
     )
