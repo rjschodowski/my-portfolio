@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
       '& > *': {
         margin: theme.spacing(1),
         width: '25ch',
+        marginLeft: 0,
       },
     },
   }));
@@ -22,18 +23,20 @@ export default function BasicTextFields() {
             <Layout>
                 <Head title="Contact"/>
                 <h1 className={heading}>Contact</h1>
-                <form className={classes.root} noValidate autoComplete="off">
-                    <TextField id="standard-basic" label="Name" />
-                    <TextField id="standard-basic" label="Subject" />
-                    <TextField id="standard-basic" label="Email Address" />
-                    <TextField
-                        id="standard-multiline-static"
-                        label="Messages"
-                        multiline
-                        rows={5}
-                        />
-                </form>
-                <Button variant="contained" color="primary">Submit</Button>
+                <div>
+                  <form className={classes.root} noValidate autoComplete="off">
+                      <TextField id="standard-basic" label="Name" />
+                      <TextField id="standard-basic" label="Subject" />
+                      <TextField id="standard-basic" label="Email Address" />
+                      <TextField
+                          id="standard-multiline-static"
+                          label="Messages"
+                          multiline
+                          rows={5}
+                          />
+                  </form>
+                  <Button variant="contained" color="primary">Submit</Button>
+                </div>
             </Layout>
     )
 }
