@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <Layout>
             <Head title="Projects"/>
-            <h1>SOS Lansing</h1>
+            <h1>Lansing Help Guide</h1>
             <p>For now this is the space where a description of SOS Lansing will be.</p>
             <p>Want to work with me? <Link to="/contact">Reach out</Link>.</p>
         </Layout>
