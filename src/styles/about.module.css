@@ -27,6 +27,7 @@
 
   .content-image {
     margin-right: 2rem;
+    align-self: flex-start;
   }
 }
 
