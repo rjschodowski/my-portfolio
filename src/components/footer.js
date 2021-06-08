@@ -1,8 +1,5 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-// import { footer } from './footer.module.css'
-// import { social } from './footer.module.css'
-// import { copyright } from './footer.module.css'
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
@@ -16,7 +13,7 @@ const Footer = () => {
   `)
 
     return (
-        <nav className="mt-12">
+        <nav className="flex justify-between mt-12">
             <p className="mb-1">&#169; 2021 {data.site.siteMetadata.author}</p>
             <ul className="flex m-0 p-0">
                 <li><a href="https://github.com/rjschodowski" alt="R.J. Schodowski GitHub profile" target="_blank" rel="noreferrer">github</a></li>
