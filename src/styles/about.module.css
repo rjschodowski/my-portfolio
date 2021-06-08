@@ -30,13 +30,13 @@
   }
 
   .content-image {
-    margin-right: 6rem;
+    margin-right: 4rem;
     align-self: flex-start;
   }
 }
 
 @media only screen and (min-width: 1050px) {
   .content-image {
-    margin-right: 4 rem;
+    margin-right: 8rem;
   }
 }
