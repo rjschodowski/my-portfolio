@@ -22,16 +22,23 @@ const About = () => {
                     maxHeight={800} />
                 </div>
                 <div className={contentText}>
-                    <p>It was my curiosity of coding languages paired with my social work background and drive to get information to people in need that 
-                    led me to web development. From my first line of rendered code to the web browser I instantly unearthed a new passion: building web technology
-                    with the purpose of improving and enhancing people’s lives.</p>
-                    <p>I have learned over the past two years that what I love most about coding is knowing that whatever I am building will be useful 
-                    for someone. Whether it's a personal music or photography website, a survey form to gather feedback on a particular product, or a community
-                    resource progressive web app (my latest project) that I am working on, it all can be used to enhance or improve life for people. This is the greatest
-                    pleasure for me.</p>
-                    <p>I have been enjoying working with HTML, CSS layouts, JavaScript, and more recently, React, to create websites with clean code and clean UX. The
-                        more experience I gain through building various projects and learning from my mentors, the more excited I have become about collaborating with
-                        others who desire to build products that will positively impact humanity in the greatest of ways.</p>
+                    <p>It was my curiosity of computer programming and markup languages paired with my social work 
+                        background and drive to get resources and information to people in need that led me to web 
+                        development. From my first line of code to my first constructed web page, I began to unearthed a 
+                        new mission: building web technology with the purpose of improving and enhancing people’s lives.</p>
+                    <p>I have learned over the past two years that what I find most fulfilling about web development is 
+                        building applications and websites that are useful, cleverly designed, and make life a little 
+                        easier for users, all while learning and improving on new skills and technologies. I have also 
+                        learned from other experienced developers to challenge myself to go beyond doing what is 
+                        comfortable and trying out new technologies that I normally would not otherwise consider using. 
+                        Lastly, I have learned of the importance of collaborating with developers, designers, and users 
+                        to ensure projects are technically solid and designed with the user’s experience always in mind.</p>
+                    <p>I have been working with HTML, CSS, JavaScript, and more recently, React, GraphQL, Material UI, and 
+                        Tailwind CSS to create websites with clean code and clean UX. (You can see my latest work with these 
+                        technologies here: https://lansinghelpguide.com.) As I have been working on various personal projects 
+                        (and more recently, a collaborative React/TypeScript application project), I have grown in confidence as 
+                        a developer, and more eager to work on more collaborative projects that will positively impact humanity in 
+                        the greatest of ways.</p>
                     <p>I'm currently looking to contribute my skills to a team where I can prove my skills while growing in my capabilities. If you are looking for a
                         highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
                     <p><Link to="/contact">Want to work with me? Reach out</Link>.</p>
