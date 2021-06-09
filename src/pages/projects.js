@@ -25,8 +25,8 @@ const Projects = () => {
                         <ul className={list}>
                             <li>React</li>
                             <li>GraphQl</li>
-                            <li>Tailwind CSS</li>
                             <li>Gatsby.js</li>
+                            <li>Tailwind CSS</li>
                             <li>Material UI</li>
                             <li>Netlify</li>
                         </ul>
@@ -35,7 +35,7 @@ const Projects = () => {
                         <h4>Links</h4>
                         <ul className={list}>
                             <li><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Live site</a></li>
-                            <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">GitHub Repository</a></li>
+                            <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">GitHub Repo</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                         are just getting to know Lansing to access.
                     </p>
                     <p>Technically speaking, this project allows users to quickly access listed content (community resources) 
-                        items by phone, Google Maps, live chat (whenever available), and ther respective websites. This project 
+                        items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
                         was built mobile-first due to the fact that the majority of users are more likely to be using mobile 
                         devices vs. laptop and desktop computers. The app is fully responsive and SEO-ready.
                     </p>
