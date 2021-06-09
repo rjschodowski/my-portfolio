@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading } from '../styles/projects.module.css'
+import { heading, list, textWithImage, stack, links, listCategories, image } from '../styles/projects.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Projects = () => {
@@ -17,22 +17,36 @@ const Projects = () => {
                  the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
                  styled components.
             </p>
-            <h4>Stack</h4>
-            <ul>
-                <li>React</li>
-                <li>GraphQl</li>
-                <li>Tailwind CSS</li>
-                <li>Gatsby.js</li>
-                <li>Material UI</li>
-                <li>Netlify</li>
-            </ul>
-            <StaticImage
-              src="../images/mobilehomescreen.png"
-              alt="mobile version of application's home screen"
-              placeholder="blurred"
-              layout="constrained"
-              maxWidth={800}
-              maxHeight={800} />
+            <div className={listCategories}>
+                <div className={stack}>
+                    <h4>Stack</h4>
+                    <ul className={list}>
+                        <li>React</li>
+                        <li>GraphQl</li>
+                        <li>Tailwind CSS</li>
+                        <li>Gatsby.js</li>
+                        <li>Material UI</li>
+                        <li>Netlify</li>
+                    </ul>
+                </div>
+                <div className={links}>
+                    <h4>Links</h4>
+                    <ul className={list}>
+                        <li><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Live site</a></li>
+                        <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">GitHub Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className={image}>
+                <StaticImage
+                src="../images/mobilehomescreen.png"
+                alt="mobile version of application's home screen"
+                placeholder="blurred"
+                layout="constrained"
+                maxWidth={800}
+                maxHeight={800} />
+            </div>
+            
               <h3>Project Purpose and Background</h3>
               <p>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
                   transitioning into independent living in Lansing, Michigan. After having spent many days with refugee 
@@ -54,13 +68,15 @@ const Projects = () => {
                 able to share their experiences and ratings with other users. This app will also soon be available on the 
                 Google Play Store.
               </p>
-              <StaticImage
-              src="../images/desktopview.png"
-              alt="Desktop version view of application's screen"
-              placeholder="blurred"
-              layout="constrained"
-              maxWidth={800}
-              maxHeight={800} />
+              <div className={image}>
+                <StaticImage
+                src="../images/desktopview.png"
+                alt="Desktop version view of application's screen"
+                placeholder="blurred"
+                layout="constrained"
+                maxWidth={800}
+                maxHeight={800} />
+              </div>
               <h3>Web Stack</h3>
               <p>
                 I chose to build my project with Gatsby.js since this static site generator is React-based, is powered 
@@ -91,7 +107,7 @@ const Projects = () => {
               This, being my first progressive web application dev project, was truly a tremendous and exciting learning 
               experience. I learned how to:
               </p>
-              <ul>
+              <ul className={list}>
                   <li>refactor code to create, use, and reuse React components</li>
                   <li>use props for component variations</li>
                   <li>perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>

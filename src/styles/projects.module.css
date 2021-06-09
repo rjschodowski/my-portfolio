@@ -4,6 +4,24 @@
   margin-bottom: 3.75rem;
 }
 
+h3 {
+  margin: 4rem 0;
+}
+
+.list-categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  margin-top: 4rem;
+}
+
 @media only screen and (min-width: 640px) {
   .heading {
     font-size: 4rem;
