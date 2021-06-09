@@ -32,10 +32,13 @@ h3 {
   .content-wrapper {
     display: flex;
     justify-content: space-between;
-    flex: 0 1;
+  }
+
+  h3 {
+    margin: 0;
   }
 
   .image {
-    align-self: flex-end;
+    margin-top: 0;
   }
 }
