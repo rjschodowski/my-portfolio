@@ -28,4 +28,13 @@ h3 {
     margin-top: 2.5rem;
     margin-bottom: 5rem;
   }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .image {
+    align-self: flex-end;
+  }
 }
