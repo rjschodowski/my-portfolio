@@ -11,7 +11,7 @@ const Projects = () => {
             <Head title="Projects"/>
             <h1 className={heading}>Lansing Help Guide</h1>
             <p>"Lansing Help Guide provides a quick starting point 
-                for Lansing newcomers in accessing help in times of need"
+                for Lansing newcomers in accessing help in times of need."
             </p>
             <p>Lansing Help Guide is a React progressive web application, which was built using
                  the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
@@ -89,18 +89,18 @@ const Projects = () => {
               <h3>Lessons Learned</h3>
               <p>
               This, being my first progressive web application dev project, was truly a tremendous and exciting learning 
-              experience. I learned the following:
+              experience. I learned how to:
               </p>
               <ul>
-                  <li>how to refactor code to create, use, and reuse React components</li>
-                  <li>how to use props for component variations</li>
-                  <li>how to perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
-                  <li>how to install and configure plugins</li>
-                  <li>how to troubleshoot site rendering problems</li>
-                  <li>how to enable the project for SEO</li>
-                  <li>how to use and modify Material UI components</li>
-                  <li>how to convert it to a progressive web app</li>
-                  <li>how to deploy the project to Netlify</li>
+                  <li>refactor code to create, use, and reuse React components</li>
+                  <li>use props for component variations</li>
+                  <li>perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
+                  <li>install and configure plugins</li>
+                  <li>troubleshoot site rendering problems</li>
+                  <li>enable the project for SEO</li>
+                  <li>use and modify Material UI components</li>
+                  <li>convert it to a progressive web app</li>
+                  <li>deploy the project to Netlify</li>
               </ul>
               <p>
                 Overall this project taught me to think more like programmatically while maintaining a goal of providing a 
