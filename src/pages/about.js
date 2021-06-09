@@ -35,7 +35,7 @@ const About = () => {
                         to ensure projects are technically solid and designed with the user’s experience always in mind.</p>
                     <p>I have been working with HTML, CSS, JavaScript, and more recently, React, GraphQL, Material UI, and 
                         Tailwind CSS to create websites with clean code and clean UX. (You can see my latest work with these 
-                        technologies here: https://lansinghelpguide.com.) As I have been working on various personal projects 
+                        technologies here: <a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.) As I have been working on various personal projects 
                         (and more recently, a collaborative React/TypeScript application project), I have grown in confidence as 
                         a developer, and more eager to work on more collaborative projects that will positively impact humanity in 
                         the greatest of ways.</p>
