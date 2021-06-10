@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading } from '../styles/projects.css'
+import { heading } from '../styles/projects.module.css'
 
 const Projects  = () => {
     return (
