@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent } from '../styles/projects.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Projects = () => {
