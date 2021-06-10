@@ -5,8 +5,7 @@ import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconButton from '@material-ui/core/IconButton';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import { bodyContainer, introductionSection, heading, headingDescription, heroImage } from '../styles/index.css'
-
+import indexPage from '../styles/index.module.css'
 
 const IndexPage = () => {
   return (
