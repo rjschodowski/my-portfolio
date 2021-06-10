@@ -39,6 +39,9 @@ const LansingHelp = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            
+            <div className={contentWrapper}>
                 <div className={image}>
                     <StaticImage
                     src="../images/mobilehomescreen.png"
@@ -48,9 +51,6 @@ const LansingHelp = () => {
                     maxWidth={800}
                     maxHeight={800} />
                 </div>
-            </div>
-            
-            <div className={contentWrapper}>
                 <div className={textContent}>
                     <h3>Project Purpose and Background</h3>
                     <p>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
