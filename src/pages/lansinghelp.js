@@ -5,10 +5,10 @@ import Head from '../components/head'
 import { heading, list, stack, links, listCategories, image, contentWrapper, textContent } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const Projects = () => {
+const LansingHelp = () => {
     return (
         <Layout>
-            <Head title="Projects"/>
+            <Head title="Lansing Help Guide"/>
             <h1 className={heading}>Lansing Help Guide</h1>
             <p>"Lansing Help Guide provides a quick starting point 
                 for Lansing newcomers in accessing help in times of need."
@@ -137,4 +137,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default LansingHelp
