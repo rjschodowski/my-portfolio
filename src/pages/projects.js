@@ -3,23 +3,58 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading } from '../styles/projects.module.css'
+import { heading, projectsContainer, project, projectRow, introText, textDescription, projectImage } from '../styles/projects.module.css'
 
 const Projects  = () => {
     return (
         <Layout>
             <Head title="Projects" />
             <h1 className={heading}>Projects</h1>
-            <Link to="/lansinghelp">
-                <StaticImage
-                    src="../images/mobilehomescreen.png"
-                    alt="mobile version of application's home screen"
-                    placeholder="blurred"
-                    layout="constrained"
-                    maxWidth={800}
-                    maxHeight={800} />           
-                <h3>Lansing Help Guide</h3>
-            </Link>
+            <div className={projectsContainer}>
+                <div className={textDescription}>
+                    <p className={textDescription}>I am always looking for projects to design and build, 
+                    whether my own or working collaboratively with others.
+                        Here is what I have accomplished so far and what I am
+                        currently working on:
+                    </p>
+                </div>
+                <div className={projectRow}>
+                    <div className={project}>
+                        <Link to="/lansinghelp">
+                            <div className={projectImage}>
+                                <StaticImage
+                                    src="../images/mobilehomescreen.png"
+                                    alt="mobile version of application's home screen"
+                                    placeholder="blurred"
+                                    layout="constrained"
+                                    maxWidth={800}
+                                    maxHeight={800} />
+                                </div>           
+                            <h3>Lansing Help Guide</h3>
+                            <p className={textDescription}>A community resource progressive web app built with React, GraphQL, Material UI, 
+                                and Tailwind CSS in Gatsby.js.
+                            </p>
+                        </Link>
+                    </div>
+                    <div className={project}>
+                        <Link to="/404">
+                            <div className={projectImage}>
+                                <StaticImage
+                                    src="../images/mobilehomescreen.png"
+                                    alt="mobile version of application's home screen"
+                                    placeholder="blurred"
+                                    layout="constrained"
+                                    maxWidth={800}
+                                    maxHeight={800} />
+                            </div>
+                            <h3>Hydra</h3>
+                            <p className={textDescription}>This is the current project I am working on collaboratively with the awesome dev team
+                                at <a href="https://northwardcompass.com/" alt="Northward Compass Website" target="_blank" rel="noreferrer">Northward Compass</a>.
+                            </p>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </Layout>
     )
 }
