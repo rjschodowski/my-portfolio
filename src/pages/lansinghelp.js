@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
@@ -10,10 +10,10 @@ const LansingHelp = () => {
         <Layout>
             <Head title="Lansing Help Guide"/>
             <h1 className={heading}>Lansing Help Guide</h1>
-            <p>"Lansing Help Guide provides a quick starting point 
-                for Lansing newcomers in accessing help in times of need."
+            <p className={textDescription}><i>"Lansing Help Guide provides a quick starting point 
+                for Lansing newcomers in accessing help in times of need."</i>
             </p>
-            <p>Lansing Help Guide is a React progressive web application, which was built using
+            <p className={textDescription}>Lansing Help Guide is a React progressive web application, which was built using
                  the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
                  styled components.
             </p>
@@ -52,8 +52,8 @@ const LansingHelp = () => {
                     maxHeight={800} />
                 </div>
                 <div className={textContent}>
-                    <h3>Project Purpose and Background</h3>
-                    <p>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
+                    <h3>Project Background and Purpose</h3>
+                    <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
                         transitioning into independent living in Lansing, Michigan. After having spent many days with refugee 
                         youth moving to Lansing, it became clear that many were unfamiliar with the city’s community resources, 
                         and I decided to create an easy-to-use app for them (and other Lansing newcomers) to have handy in case of 
@@ -61,12 +61,12 @@ const LansingHelp = () => {
                         businesses in the city, but rather a quick starter guide with well-known and trusted resources for people who
                         are just getting to know Lansing to access.
                     </p>
-                    <p>Technically speaking, this project allows users to quickly access listed content (community resources) 
+                    <p className={textDescription}>Technically speaking, this project allows users to quickly access listed content (community resources) 
                         items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
                         was built mobile-first due to the fact that the majority of users are more likely to be using mobile 
                         devices vs. laptop and desktop computers. The app is fully responsive and SEO-ready.
                     </p>
-                    <p>
+                    <p className={textDescription}>
                         The first version of this progressive web app is far from being the last - upcoming versions will include 
                         more assistance categories, a language selector for the content to translate to other common languages 
                         spoken among the various cultures in the greater Lansing area, and finally a rating system for users to be 
@@ -86,22 +86,22 @@ const LansingHelp = () => {
             </div>
 
             <h3>Web Stack</h3>
-            <p>
+            <p className={textDescription}>
                 I chose to build my project with Gatsby.js since this static site generator is React-based, is powered 
                 with GraphQL, and enables developers to easily convert static sites into progressive web applications. 
                 With the installation of a few helpful plugins, I was able to add in Material UI components, easily style 
                 the application with Tailwind CSS, and convert the project into a downloadable progressive web app. Finally, 
                 I chose Netlify for web hosting and deployment.
             </p>
-            <h3>Problems and How They Were Solved</h3>
-            <p>
+            <h3>Problems Encountered</h3>
+            <p className={textDescription}>
                 Of several problems I worked through, one particular technical challenge I faced was learning to style the 
                 Material UI button components. I had initially assumed I could easily style them using Tailwind CSS, but I 
                 rather quickly realized that this was not the case. This forced me to consult the Material UI button API 
                 documentation and the Net Ninja’s Material UI YouTube video series, and there I learned to customize and 
                 override default styles with CSS rules.
             </p>
-            <p>
+            <p className={textDescription}>
                 Another problem I ran into was design-related. I knew during the ideation and design process that I wanted 
                 to include an emergency 911 button for users to easily access if needed. I initially thought to put the 
                 button at the top of the page under the header for visibility. I had a few colleagues test out the app for 
@@ -112,7 +112,7 @@ const LansingHelp = () => {
             </p>
 
             <h3>Lessons Learned</h3>
-            <p>
+            <p className={textDescription}>
               This, being my first progressive web application dev project, was truly a tremendous and exciting learning 
               experience. I learned how to:
             </p>
@@ -127,7 +127,7 @@ const LansingHelp = () => {
                 <li>convert it to a progressive web app</li>
                 <li>deploy the project to Netlify</li>
             </ul>
-            <p>
+            <p className={textDescription}>
                 Overall this project taught me to think more like programmatically while maintaining a goal of providing a 
                 positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
                 and consulting with other seasoned developers.

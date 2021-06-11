@@ -13,7 +13,8 @@ h3 {
   justify-content: space-evenly;
 }
 
-.list {
+.stack > .list,
+.links > .list {
   margin: 0;
   padding: 0;
 }
@@ -29,13 +30,16 @@ h3 {
     margin-bottom: 5rem;
   }
 
-  .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-
   h3 {
     margin: 0;
+  }
+
+  .text-description {
+    max-width: 800px;
+  }
+
+  .stack {
+    margin-bottom: 4rem;
   }
 
   .image {
