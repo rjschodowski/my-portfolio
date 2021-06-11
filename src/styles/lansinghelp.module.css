@@ -20,7 +20,7 @@ h3 {
 }
 
 .image {
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 
 @media only screen and (min-width: 640px) {
@@ -34,15 +34,17 @@ h3 {
     max-width: 800px;
   }
 
-  .list-categories {
-    justify-content: flex-start;
-  }
-
   .stack {
-    margin-bottom: 4rem;
+    margin: 0 4rem 4rem 0;
   }
 
-  .image {
-    margin-top: 0;
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+}
+
+.list-categories {
+  margin-top: 4rem;
 }

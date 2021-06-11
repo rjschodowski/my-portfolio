@@ -19,6 +19,15 @@ const LansingHelp = () => {
             </p>
             
             <div className={contentWrapper}>
+                <div className={image}>
+                    <StaticImage
+                    src="../images/mobilehomescreen.png"
+                    alt="mobile version of application's home screen"
+                    placeholder="blurred"
+                    layout="constrained"
+                    maxWidth={800}
+                    maxHeight={800} />
+                </div>
                 <div className={listCategories}>
                     <div className={stack}>
                         <h4>Stack</h4>
@@ -34,23 +43,14 @@ const LansingHelp = () => {
                     <div className={links}>
                         <h4>Links</h4>
                         <ul className={list}>
-                            <li><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Live site</a></li>
-                            <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">GitHub Repo</a></li>
+                            <li><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">View site</a></li>
+                            <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">Repository</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             
             <div className={contentWrapper}>
-                <div className={image}>
-                    <StaticImage
-                    src="../images/mobilehomescreen.png"
-                    alt="mobile version of application's home screen"
-                    placeholder="blurred"
-                    layout="constrained"
-                    maxWidth={800}
-                    maxHeight={800} />
-                </div>
                 <div className={textContent}>
                     <h3>Project Background and Purpose</h3>
                     <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 

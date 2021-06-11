@@ -3,9 +3,20 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Head from '../components/head'
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 import { heading, projectsContainer, project, projectRow, introText, textDescription, projectImage } from '../styles/projects.module.css'
 
+const useStyles = makeStyles((theme) => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1),
+      },
+    },
+  }));
+
 const Projects  = () => {
+    const classes = useStyles();
     return (
         <Layout>
             <Head title="Projects" />
@@ -34,8 +45,12 @@ const Projects  = () => {
                             <p className={textDescription}>A community resource progressive web app built with React, GraphQL, Material UI, 
                                 and Tailwind CSS in Gatsby.js.
                             </p>
+                            <Button variant="outlined" color="primary">
+                                VIEW PROJECT
+                            </Button>
                         </Link>
                     </div>
+
                     <div className={project}>
                         <Link to="/404">
                             <div className={projectImage}>
@@ -47,9 +62,9 @@ const Projects  = () => {
                                     maxWidth={800}
                                     maxHeight={800} />
                             </div>
-                            <h3>Hydra</h3>
-                            <p className={textDescription}>This is the current project I am working on collaboratively with the awesome dev team
-                                at <a href="https://northwardcompass.com/" alt="Northward Compass Website" target="_blank" rel="noreferrer">Northward Compass</a>.
+                            <h3>Forget-Me-Shop</h3>
+                            <p className={textDescription}>This project is my current work in progress. It is a grocery shopping app geared toward those
+                            couples and families who need their shopping list updated in real-time. More to come soon!
                             </p>
                         </Link>
                     </div>
