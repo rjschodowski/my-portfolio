@@ -1,8 +1,14 @@
 module.exports = {
   
   siteMetadata: {
+    url: 'https://www.rjscodes.com',
     title: 'R.J. SCHODOWSKI',
+    description: 'R.J. Schodowski Portfolio Website',
     author: 'R.J. Schodowski'
+  },
+
+  flags: {
+    PRESERVE_WEBPACK_CACHE: true
   },
 
   plugins: [
@@ -11,7 +17,21 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass', 
+    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `R.J. Schodowski`,
+        short_name: `RJS Codes`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#3f51b5`,
+        display: `standalone`,
+        icon: `src/images/app-fav-icon.png`,
+        include_favicon: true,
+      },
+    },
+    `gatsby-plugin-offline`, 
     {
       resolve: 'gatsby-source-filesystem',
       options: {
