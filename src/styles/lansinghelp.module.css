@@ -25,6 +25,7 @@ h3 {
 
 .link {
   text-decoration: underline;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 640px) {
