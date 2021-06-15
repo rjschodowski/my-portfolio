@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
@@ -132,7 +132,7 @@ const LansingHelp = () => {
                 positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
                 and consulting with other seasoned developers.
             </p>
-            <p>Want to work with me? <Link to="/contact">Reach out</Link>.</p>
+            <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
         </Layout>
     )
 }

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
-import { heading, contentContainer, contentText, contentImage } from '../styles/about.module.css'
+import { heading, contentContainer, contentText, contentImage, link } from '../styles/about.module.css'
 
 const About = () => {
     return (
@@ -34,13 +34,13 @@ const About = () => {
                         to ensure projects are technically solid and designed with the user’s experience always in mind.</p>
                     <p>I have been working with HTML, CSS, JavaScript, and more recently, React, GraphQL, Material UI, and 
                         Tailwind CSS to create websites with clean code and clean UX. (You can see my latest work with these 
-                        technologies here: <a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.) As I have been working on various personal projects 
+                        technologies here: <a className={link} href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.) As I have been working on various personal projects 
                         (and more recently, a collaborative React/TypeScript application project), I have grown in confidence as 
                         a developer, and more eager to work on more collaborative projects that will positively impact humanity in 
                         the greatest of ways.</p>
                     <p>I'm currently looking to contribute my skills to a team where I can prove my skills while growing in my capabilities. If you are looking for a
                         highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
-                    <p><Link to="/contact">Want to work with me? Reach out</Link>.</p>
+                    <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
             </div>
         </Layout>
