@@ -8,6 +8,10 @@ h3 {
   margin: 4rem 0;
 }
 
+.text-description {
+  margin-bottom: 4rem;
+}
+
 .headline {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;

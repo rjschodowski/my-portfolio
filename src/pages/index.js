@@ -5,7 +5,7 @@ import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconButton from '@material-ui/core/IconButton';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link } from '../styles/index.module.css'
+import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
 const IndexPage = () => {
   return (
@@ -17,7 +17,7 @@ const IndexPage = () => {
           <p className={headingDescription}>I am a socially-conscious web developer who seeks to develop and collaborate on projects that positively impact people from all walks of life.</p>       
           <Link to="/about" className={link}>More about me
             <IconButton>
-              <ArrowRightAltIcon />
+              <ArrowRightAltIcon className={arrow} />
             </IconButton>
           </Link>        
         </div>
