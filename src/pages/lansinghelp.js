@@ -2,22 +2,23 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, headline } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
     return (
         <Layout>
             <Head title="Lansing Help Guide"/>
-            <h1 className={heading}>Lansing Help Guide</h1>
-            <p className={textDescription}><i>"Lansing Help Guide provides a quick starting point 
-                for Lansing newcomers in accessing help in times of need."</i>
-            </p>
-            <p className={textDescription}>Lansing Help Guide is a React progressive web application, which was built using
-                 the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
-                 styled components.
-            </p>
-            
+            <div className={contentWrapper}>
+                <h1 className={heading}>Lansing Help Guide</h1>
+                <p className={textDescription} className={headline}><i>"Lansing Help Guide provides a quick starting point 
+                    for Lansing newcomers in accessing help in times of need."</i>
+                </p>
+                <p className={textDescription}>Lansing Help Guide is a React progressive web application, which was built using
+                    the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
+                    styled components.
+                </p>
+            </div>
             <div className={contentWrapper}>
                 <div className={image}>
                     <StaticImage
