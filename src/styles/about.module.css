@@ -9,7 +9,8 @@
 }
 
 .link {
-  text-decoration: underline;
+  text-decoration: underline 2px;
+  text-underline-position: under;
   font-weight: 700;
 }
 
