@@ -5,14 +5,12 @@ import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconButton from '@material-ui/core/IconButton'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
-import GbiBridged from '../components/bg-image'
 import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
 const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home"/>
-      <GbiBridged />
       <div className={bodyContainer}>
         <div className={introductionSection}>
           <h1 className={heading}>Hi! I'm R.J.</h1>

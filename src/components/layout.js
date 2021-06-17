@@ -3,7 +3,6 @@ import Header from './header'
 import Footer from './footer'
 import '../styles/global.css'
 import { container, content } from './layout.module.css'
-import '../bg-image.module.css'
 
 const Layout = (props) => {
     return (
