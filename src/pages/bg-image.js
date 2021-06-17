@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { getImage } from 'gatsby-plugin-image'
-import { convertToBgImage } from 'gbimage-bridge'
-import BackgroundImage from 'gatsby-background-image'
+import { BgImage } from 'gbimage-bridge'
+import { bgStyle } from '../styles/bg-image.css'
 
 const GbiBridged = () => {
     const { backgroundImageGlobe } = useStaticQuery(
@@ -23,16 +23,12 @@ const GbiBridged = () => {
     )
 
 
-    const image = getImage(backgroundImageGlobe)
-    const bgImage = convertToBgImage(image)
+    const pluginImage = getImage(backgroundImageGlobe)
 
     return (
-        <BackgroundImage
-        tag="section"
-        {...bgImage}
-        preserveStackingContext>
+        <BgImage image={pluginImage} className={bgStyle}>
             test
-        </BackgroundImage>
+        </BgImage>
     )
 }
 

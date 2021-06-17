@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import { StaticImage } from 'gatsby-plugin-image'
-import IconButton from '@material-ui/core/IconButton';
-import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import IconButton from '@material-ui/core/IconButton'
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
 import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
 const IndexPage = () => {
