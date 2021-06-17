@@ -2,6 +2,16 @@
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: #ffffff;
+  }
+  100% {
+    color: #000000;
+  }
 }
 
 .link {
