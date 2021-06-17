@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import SEO from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconButton from '@material-ui/core/IconButton'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
@@ -10,7 +10,7 @@ import { bodyContainer, introductionSection, heading, headingDescription, heroIm
 const IndexPage = () => {
   return (
     <Layout>
-      <Head title="Home"/>
+      <SEO title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
           <h1 className={heading}>Hi! I'm R.J.</h1>

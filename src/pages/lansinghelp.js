@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import SEO from '../components/seo'
 import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, headline } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
     return (
         <Layout>
-            <Head title="Lansing Help Guide"/>
+            <SEO title="Lansing Help Guide"/>
             <div className={contentWrapper}>
                 <h1 className={heading}>Lansing Help Guide</h1>
                 <p className={textDescription}><i className={headline}>"Lansing Help Guide provides a quick starting point 

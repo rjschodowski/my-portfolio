@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import SEO from '../components/seo'
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -21,7 +21,7 @@ export default function BasicTextFields() {
 
     return (
             <Layout>
-                <Head title="Contact"/>
+                <SEO title="Contact"/>
                 <div className={contactContainer}>
                   <h1 className={heading}>Contact</h1>
                   <div>

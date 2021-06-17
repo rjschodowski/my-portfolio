@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import SEO from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image'
 import { heading, contentContainer, contentText, contentImage, link } from '../styles/about.module.css'
 
 const About = () => {
     return (
         <Layout>
-            <Head title="About"/>
+            <SEO title="About"/>
             <h1 className={heading}>My Story</h1>
             <div className={contentContainer}>
                 <div className={contentImage}>

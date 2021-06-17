@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import SEO from '../components/seo'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { heading, projectsContainer, project, projectRow, introText, textDescription, projectImage } from '../styles/projects.module.css'
@@ -19,7 +19,7 @@ const Projects  = () => {
     const classes = useStyles();
     return (
         <Layout>
-            <Head title="Projects" />
+            <SEO title="Projects" />
             <h1 className={heading}>Projects</h1>
             <div className={projectsContainer}>
                 <div className={textDescription}>
