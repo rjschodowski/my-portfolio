@@ -7,14 +7,15 @@ import IconButton from '@material-ui/core/IconButton'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
 import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
-const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sono R.J.'];
+const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
 
-const textHeading = document.getElementsByClassName('heading');
+const textHeading = document.querySelector('.heading');
 
-textHeading.addEventListener('onLoad', function() {
-  const randomGreet = getRandomGreet();
-  document.body.textContents = greeting[randomGreet];
-})
+textHeading.addEventListener('DOMContentLoaded', function() {
+  for (let i = 0; i <greeting.length; i++);
+});
+
+
 
 const IndexPage = () => {
   return (
