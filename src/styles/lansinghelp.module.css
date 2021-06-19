@@ -2,6 +2,16 @@
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
+  animation: pulse 5s;
+}
+
+@keyframes pulse {
+  0% {
+    color: #ffffff;
+  }
+  100% {
+    color: #313131;
+  }
 }
 
 h3 {
@@ -36,6 +46,7 @@ h3 {
 .link {
   text-decoration: underline 2px;
   text-underline-position: under;
+  color: hsla(0, 0%, 0%, 0.8);
   font-weight: 700;
 }
 

@@ -2,6 +2,16 @@
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
+  animation: pulse 5s;
+}
+
+@keyframes pulse {
+  0% {
+    color: #ffffff;
+  }
+  100% {
+    color: #313131;
+  }
 }
 
 @media only screen and (min-width: 640px) {

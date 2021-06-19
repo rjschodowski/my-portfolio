@@ -7,7 +7,7 @@ import IconButton from '@material-ui/core/IconButton'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
 import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
-const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
+// const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
 
 // const textHeading = document.querySelector('.heading');
 
@@ -23,7 +23,7 @@ const IndexPage = () => {
       <SEO title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h1 className={heading}>{greeting}</h1>
+          <h1 className={heading}>Hi! I'm R.J.</h1>
           <p className={headingDescription}>I am a socially-conscious web developer who seeks to develop and collaborate on projects that positively impact people from all walks of life, all over the world.</p>       
           <Link to="/about" className={link}>More about me
             <IconButton>

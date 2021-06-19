@@ -2,7 +2,7 @@
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
-  animation: pulse 20s infinite;
+  animation: pulse 10s;
 }
 
 @keyframes pulse {
@@ -10,7 +10,7 @@
     color: #ffffff;
   }
   100% {
-    color: #000000;
+    color: #313131;
   }
 }
 
