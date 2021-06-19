@@ -55,8 +55,8 @@ const Projects  = () => {
                         <Link to="/404">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/mobilehomescreen.png"
-                                    alt="mobile version of application's home screen"
+                                    src="../images/fav-icon.png"
+                                    alt="temporary placeholder image"
                                     placeholder="blurred"
                                     layout="constrained"
                                     maxWidth={800}
