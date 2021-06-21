@@ -7,17 +7,21 @@ import IconButton from '@material-ui/core/IconButton'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt'
 import { bodyContainer, introductionSection, heading, headingDescription, heroImage, link, arrow } from '../styles/index.module.css'
 
-// const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
-
-// const textHeading = document.querySelector('.heading');
-
-// textHeading.addEventListener('DOMContentLoaded', function() {
-//   for (let i = 0; i <greeting.length; i++);
-// });
-
-
 
 const IndexPage = () => {
+
+//   const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
+
+//   // const textHeading = document.querySelector('.heading');
+  
+//   function newGreeting () {
+//     for (let i = 0; i < greeting.length; i++) {
+//     document.write(greeting[i]);
+//   }
+// }
+
+// newGreeting();
+
   return (
     <Layout>
       <SEO title="Home"/>
@@ -30,7 +34,7 @@ const IndexPage = () => {
               <ArrowRightAltIcon className={arrow} />
             </IconButton>
           </Link>        
-        </div>
+        </div>  
         <div className={heroImage}>
           <StaticImage
               src="../images/profilephoto-removebg.png"
