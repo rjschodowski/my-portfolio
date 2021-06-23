@@ -30,6 +30,8 @@ export default function BasicTextFields() {
             <TextField required id="standard-required" label="Subject" />
             <TextField required id="standard-required" label="Email Address" />
             <TextField
+              required
+              id="required"
               id="standard-multiline-static"
               label="Messages"
               multiline
