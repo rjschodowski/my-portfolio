@@ -45,7 +45,7 @@ const Projects  = () => {
                             <p className={textDescription}>A community resource progressive web app built with React, GraphQL, Material UI, 
                                 and Tailwind CSS in Gatsby.js.
                             </p>
-                            <Button variant="outlined" color="primary">
+                            <Button variant="contained" color="primary">
                                 VIEW PROJECT
                             </Button>
                         </Link>

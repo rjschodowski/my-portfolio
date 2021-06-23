@@ -25,7 +25,7 @@ module.exports = {
         short_name: `RJS Codes`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#3f51b5`,
+        theme_color: `#3f51b6`,
         display: `standalone`,
         icon: `src/images/fav-icon.png`,
         include_favicon: true,

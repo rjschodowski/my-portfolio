@@ -37,7 +37,7 @@ export default function BasicTextFields() {
               multiline
               rows={5}
             />
-            <Button variant="outlined" color="primary">Submit</Button>
+            <Button variant="contained" color="primary">Submit</Button>
           </form>
         </div>
       </div>
