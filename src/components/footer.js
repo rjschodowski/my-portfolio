@@ -14,7 +14,7 @@ const Footer = () => {
   `)
 
     return (
-        <nav className="flex justify-between mt-12">
+        <nav className="flex justify-between items-end mt-12">
             <p className={copyright}>&#169; 2021 {data.site.siteMetadata.author}</p>
             <ul className="md:flex m-0 p-0">
                 <li className={navItem}><a href="https://github.com/rjschodowski" alt="R.J. Schodowski GitHub profile" target="_blank" rel="noreferrer">github</a></li>
