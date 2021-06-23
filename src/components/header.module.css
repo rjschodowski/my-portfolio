@@ -5,6 +5,10 @@
   align-items: baseline;
 }
 
+.site-title {
+  margin: 1.0625rem 0 2rem 0;
+}
+
 .title {
   color: #313131;
   font-size: 3.75vw;
