@@ -35,33 +35,10 @@ export default function BasicTextFields() {
               multiline
               rows={5}
             />
-            <Button variant="outlined" color="primary">Submit</Button>
+            <Button type="submit" variant="outlined" color="primary">Submit</Button>
           </form>
         </div>
       </div>
     </Layout>
   )
 }
-
-
-
-// const useStyles = makeStyles((theme) => ({
-//     root: {
-//       '& > *': {
-//         margin: theme.spacing(1),
-//         width: '25ch',
-//       },
-//     },
-//   }));
-
-//   export default function BasicTextFields() {
-//     const classes = useStyles();
-
-//     return (
-//       <form className={classes.root} noValidate autoComplete="off">
-//         <TextField id="standard-basic" label="Standard" />
-//         <TextField id="filled-basic" label="Filled" variant="filled" />
-//         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-//       </form>
-//     );
-//   }
