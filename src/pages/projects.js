@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { heading, projectsContainer, project, projectRow, introText, textDescription, projectImage } from '../styles/projects.module.css'
+import { heading, projectsContainer, project, projectRow, introText, textDescription, projectImage, subheading } from '../styles/projects.module.css'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -41,7 +41,7 @@ const Projects  = () => {
                                     maxWidth={800}
                                     maxHeight={800} />
                                 </div>           
-                            <h3>Lansing Help Guide</h3>
+                            <h3 className={subheading}>Lansing Help Guide</h3>
                             <p className={textDescription}>A community resource progressive web app built with React, GraphQL, Material UI, 
                                 and Tailwind CSS in Gatsby.js.
                             </p>
@@ -62,7 +62,7 @@ const Projects  = () => {
                                     maxWidth={800}
                                     maxHeight={800} />
                             </div>
-                            <h3>Forget-Me-Shop</h3>
+                            <h3 className={subheading}>Forget-Me-Shop</h3>
                             <p className={textDescription}>This project is my current work in progress. It is a grocery shopping app geared toward those
                             couples and families who need their shopping list updated in real-time. More to come soon!
                             </p>

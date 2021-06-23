@@ -28,6 +28,10 @@ h3 {
   max-width: 800px;
 }
 
+.subheading {
+  margin: 4rem 0;
+}
+
 .list-categories {
   display: flex;
   justify-content: space-evenly;

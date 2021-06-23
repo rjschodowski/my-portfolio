@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, headline } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, headline, subheading } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
@@ -53,7 +53,7 @@ const LansingHelp = () => {
             
             <div className={contentWrapper}>
                 <div className={textContent}>
-                    <h3>Project Background and Purpose</h3>
+                    <h3 className={subheading}>Project Background and Purpose</h3>
                     <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
                         transitioning into independent living in Lansing, Michigan. After having spent many days with refugee 
                         youth moving to Lansing, it became clear that many were unfamiliar with the city’s community resources, 
@@ -87,7 +87,7 @@ const LansingHelp = () => {
             </div>
 
             <div className={contentWrapper}>
-                <h3>Web Stack</h3>
+                <h3 className={subheading}>Web Stack</h3>
                 <p className={textDescription}>
                     I chose to build my project with Gatsby.js since this static site generator is React-based, is powered 
                     with GraphQL, and enables developers to easily convert static sites into progressive web applications. 
@@ -95,7 +95,7 @@ const LansingHelp = () => {
                     the application with Tailwind CSS, and convert the project into a downloadable progressive web app. Finally, 
                     I chose Netlify for web hosting and deployment.
                 </p>
-                <h3>Problems Encountered</h3>
+                <h3 className={subheading}>Problems Encountered</h3>
                 <p className={textDescription}>
                     Of several problems I worked through, one particular technical challenge I faced was learning to style the 
                     Material UI button components. I had initially assumed I could easily style them using Tailwind CSS, but I 
@@ -113,7 +113,7 @@ const LansingHelp = () => {
                     pressed.
                 </p>
 
-                <h3>Lessons Learned</h3>
+                <h3 className={subheading}>Lessons Learned</h3>
                 <p className={textDescription}>
                 This, being my first progressive web application dev project, was truly a tremendous and exciting learning 
                 experience. I learned how to:
