@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
-      width: '40ch',
+      width: '100%',
       marginLeft: 0,
     },
   },
@@ -27,10 +27,10 @@ export default function BasicTextFields() {
       <div className={contactContainer}>
         <h1 className={heading}>Contact Me</h1>
         <div className={contactLayout}>
-          <div className={contactText}>
-            <p>Want to get in touch with me? Feel free to connect with me on social media or via the contact form. I look forward to hearing from you!</p>
-          </div>
           <div className={contactSocial}>
+            <div className={contactText}>
+              <p>Want to get in touch with me? Feel free to connect with me on social media or via the contact form. I look forward to hearing from you!</p>
+            </div>
             <div className={socialItem}>
               <a href="https://www.linkedin.com/in/rjschodowski/" alt="R.J. Schodowski LinkedIn profile" target="_blank" rel="noreferrer">
                 <span className={socialIcon}>

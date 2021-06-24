@@ -14,6 +14,23 @@
   }
 }
 
+.contact-social {
+  margin: 2rem 0;
+}
+
+.social-item {
+  margin-top: 0.5rem;
+}
+
+.social-icon {
+  margin-right: 1rem;
+}
+
+.social-text {
+  color: #3f51b6;
+  font-weight: 500;
+}
+
 @media only screen and (min-width: 640px) {
   .contact-container {
     display: flex;
@@ -21,14 +38,28 @@
     align-items: center;
   }
 
+  .contact-layout {
+    display: flex;
+    align-items: baseline;
+  }
+
   .heading {
     font-size: 4rem;
     margin-top: 2.5rem;
     margin-bottom: 5rem;
   }
-}
 
-form {
-  display: flex;
-  flex-direction: column;
+  .contact-social {
+    width: 50%;
+  }
+
+  .contact-form {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 }
