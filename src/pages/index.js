@@ -10,18 +10,6 @@ import { bodyContainer, introductionSection, heading, headingDescription, heroIm
 
 const IndexPage = () => {
 
-//   const greeting = ['Hi! I\'m R.J.', 'Hola, soy R.J.', 'Ciao! Sonno R.J.'];
-
-//   // const textHeading = document.querySelector('.heading');
-  
-//   function newGreeting () {
-//     for (let i = 0; i < greeting.length; i++) {
-//     document.write(greeting[i]);
-//   }
-// }
-
-// newGreeting();
-
   return (
     <Layout>
       <SEO title="Home"/>

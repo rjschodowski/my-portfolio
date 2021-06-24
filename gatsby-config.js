@@ -2,7 +2,7 @@ module.exports = {
   
   siteMetadata: {
     url: 'https://www.rjscodes.com',
-    title: 'R.J. SCHODOWSKI',
+    title: 'R.J. Schodowski',
     description: 'R.J. Schodowski Portfolio Website',
     author: 'R.J. Schodowski'
   },
