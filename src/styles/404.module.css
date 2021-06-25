@@ -1,0 +1,6 @@
+.link {
+  color: #3f51b6;
+  text-decoration: underline 2px;
+  text-underline-position: under;
+  font-weight: 700;
+}
