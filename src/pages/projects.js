@@ -55,7 +55,7 @@ const Projects  = () => {
                         <Link to="/404">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/fav-icon.svg"
+                                    src="../images/placeholder.svg"
                                     alt="temporary placeholder image"
                                     placeholder="blurred"
                                     layout="constrained"
