@@ -2,7 +2,7 @@
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
-  animation: pulse 5s;
+  animation: pulse 2.5s;
 }
 
 @keyframes pulse {
