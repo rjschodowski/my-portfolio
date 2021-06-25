@@ -1,17 +1,38 @@
+.greeting:before {
+  content: "";
+  animation: animate infinite 36s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Hi, I'm R.J.";
+  }
+  20% {
+    content: "Hola, soy R.J.";
+    color: #9dd52a;
+  }
+  40% {
+    content: "こんにちは、私は R.J.";
+    color: #ffbe00;
+  }
+  60% {
+    content: "Xin chào, tôi là R.J.";
+    color: #ac54aa;
+  }
+  80% {
+    content: "Habari, mimi ni R.J.";
+    color: #ffbe00;
+  }
+  100% {
+    content: "Ciao! Sono R.J.";
+    color: #9dd52a;
+  }
+}
+
 .heading {
   font-size: 3.75rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
-  animation: pulse 10s;
-}
-
-@keyframes pulse {
-  0% {
-    color: #ffffff;
-  }
-  100% {
-    color: #666666;
-  }
 }
 
 .link {
