@@ -23,6 +23,9 @@
   font-size: 105%;
   text-decoration: underline 2px;
   text-underline-position: under;
+  transition-property: font-size;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 .body-container {

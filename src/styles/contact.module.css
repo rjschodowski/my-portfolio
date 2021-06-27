@@ -25,6 +25,9 @@
 .social-item:hover,
 .social-icon:hover {
   font-size: 105%;
+  transition-property: font-size;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 .social-icon {
