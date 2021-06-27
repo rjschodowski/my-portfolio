@@ -33,6 +33,7 @@
 
 .nav-item:hover {
   color: #666666;
+  font-size: 105%;
 }
 
 .active-nav-item {

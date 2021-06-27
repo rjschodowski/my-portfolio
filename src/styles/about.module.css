@@ -20,9 +20,13 @@
 
 .link {
   color: #3f51b6;
+  font-weight: 700;
+}
+
+.link:hover {
+  font-size: 105%;
   text-decoration: underline 2px;
   text-underline-position: under;
-  font-weight: 700;
 }
 
 @media only screen and (min-width: 640px) {

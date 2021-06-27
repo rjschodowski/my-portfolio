@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, headline, subheading } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, firstLink, secondLink, headline, subheading } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
@@ -44,8 +44,8 @@ const LansingHelp = () => {
                     <div className={links}>
                         <h4>Links</h4>
                         <ul className={list}>
-                            <li><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">View site</a></li>
-                            <li><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">Repository</a></li>
+                            <li className={firstLink}><a href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">View site</a></li>
+                            <li className={secondLink}><a href="https://github.com/rjschodowski/lansing-help-guide" alt="Lansing Help Guide GitHub repository" target="_blank" rel="noreferrer">Repository</a></li>
                         </ul>
                     </div>
                 </div>

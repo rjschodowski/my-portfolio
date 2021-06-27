@@ -22,6 +22,11 @@
   margin-top: 0.5rem;
 }
 
+.social-item:hover,
+.social-icon:hover {
+  font-size: 105%;
+}
+
 .social-icon {
   margin-right: 1rem;
 }
