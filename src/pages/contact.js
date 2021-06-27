@@ -58,14 +58,15 @@ export default function BasicTextFields() {
             </div>
           </div>
           <div className={contactForm}>
-            <form name="contact-form" method="POST" data-netlify="true" className={classes.root} noValidate autoComplete="off">
-              <TextField required id="standard-required" label="Name" />
-              <TextField required id="standard-required" label="Subject" />
-              <TextField required id="standard-required" label="Email Address" />
+            <form name="contact" method="POST" data-netlify="true" className={classes.root} noValidate autoComplete="off">
+              <TextField required id="standard-required" name="name" label="Name" />
+              <TextField required id="standard-required" name="subject" label="Subject" />
+              <TextField required id="standard-required" name="email" label="Email Address" />
               <TextField
                 required
                 id="required"
                 id="standard-multiline-static"
+                name="message"
                 label="Message"
                 multiline
                 rows={5}
