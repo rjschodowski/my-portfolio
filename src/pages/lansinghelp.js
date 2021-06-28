@@ -59,8 +59,8 @@ const LansingHelp = () => {
                         youth moving to Lansing, it became clear that many were unfamiliar with the city’s community resources, 
                         and I decided to create an easy-to-use app for them (and other Lansing newcomers) to have handy in case of 
                         an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and 
-                        businesses in the city, but rather a quick starter guide with well-known and trusted resources for people who
-                        are just getting to know Lansing to access.
+                        businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people who
+                        are just getting to know Lansing.
                     </p>
                     <p className={textDescription}>Technically speaking, this project allows users to quickly access listed content (community resources) 
                         items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
@@ -119,18 +119,18 @@ const LansingHelp = () => {
                 experience. I learned how to:
                 </p>
                 <ul className={list}>
-                    <li>refactor code to create, use, and reuse React components</li>
-                    <li>use props for component variations</li>
-                    <li>perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
-                    <li>install and configure plugins</li>
-                    <li>troubleshoot site rendering problems</li>
-                    <li>enable the project for SEO</li>
-                    <li>use and modify Material UI components</li>
-                    <li>convert it to a progressive web app</li>
-                    <li>deploy the project to Netlify</li>
+                    <li>Refactor code to create, use, and reuse React components</li>
+                    <li>Use props for component variations</li>
+                    <li>Perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
+                    <li>Install and configure plugins</li>
+                    <li>Troubleshoot site rendering problems</li>
+                    <li>Enable the project for SEO</li>
+                    <li>Use and modify Material UI components</li>
+                    <li>Convert it to a progressive web app</li>
+                    <li>Deploy the project to Netlify</li>
                 </ul>
                 <p className={textDescription}>
-                    Overall this project taught me to think more like programmatically while maintaining a goal of providing a 
+                    Overall this project taught me to think more programmatically while maintaining a goal of providing a 
                     positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
                     and consulting with other seasoned developers.
                 </p>
