@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import React, { useReducer } from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -64,15 +64,16 @@ fetch("/", {
   method: "POST",
   headers: { "Content-Type": "application/x-www-form-urlencoded" },
   body: encode({
-    "form-name": e.target.getAttribute("name"),
+    "contact": e.target.getAttribute("name"),
     ...values,
   })
 })
 .then(()=> console.log("success"))
 .catch((e) => console.log("Error :", e));
 
-const Layout = ({ children })=> {
+const Contact = ({ children })=> {
   const classes = useStyles();
+
 
   return (
     <Layout>
@@ -111,7 +112,6 @@ const Layout = ({ children })=> {
           </div>
           <div className={contactForm}>
             <form
-              onSubmit={onSubmit}
               name="contact"
               method="POST"
               data-netlify="true"
@@ -161,4 +161,4 @@ const Layout = ({ children })=> {
   )
 }
 
-export default Layout;
+export default Contact;
