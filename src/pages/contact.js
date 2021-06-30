@@ -19,6 +19,58 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const initialValues = {
+  name: "",
+  subject: "",
+  email: "",
+  message: "",
+}
+
+const initialErrors = {
+  name: false,
+  subject: false,
+  email: false,
+  message: false,
+}
+
+const reducer = (currentState, nextState) => ({ ...currentState, ...nextState });
+
+const [values, setValues] = useReducer(reducer, initialValues);
+const [errors, setErrors] = useReducer(reducer, initialErrors);
+
+const onChange = (e) => {
+  setValues({ [e.target.id]: e.target.value });
+}
+
+const onFocus = (e) => {
+  setErrors({ [e.target.id]: false });
+}
+
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
+
+for(const key in values){
+  if(!values[key]){
+    setErrors({ [key]: true });
+    return;
+  }
+  setErrors({ [key]: false });
+};
+
+fetch("/", {
+  method: "POST",
+  headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  body: encode({
+    "form-name": e.target.getAttribute("name"),
+    ...values,
+  })
+})
+.then(()=> console.log("success"))
+.catch((e) => console.log("Error :", e));
+
 export default function BasicTextFields() {
   const classes = useStyles();
 
@@ -58,20 +110,49 @@ export default function BasicTextFields() {
             </div>
           </div>
           <div className={contactForm}>
-            <form name="contact" method="POST" data-netlify="true" className={classes.root} noValidate autoComplete="off">
-              <TextField required id="standard-required" name="name" label="Name" />
-              <TextField required id="standard-required" name="subject" label="Subject" />
-              <TextField required id="standard-required" name="email" label="Email Address" />
+            <form
+              onSubmit={onSubmit}
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              className={classes.root}>
+              <input type="hidden" name="form-name" value="contact"></input>
               <TextField
-                required
-                id="required"
+                id="standard"
+                name="name"
+                label="Name"
+                onChange={onChange}
+                onFocus={onFocus}
+                error={errors.name}
+                value={values.name} />
+              <TextField
+                id="standard"
+                name="subject"
+                label="Subject"
+                onChange={onChange}
+                onFocus={onFocus}
+                error={errors.subject}
+                value={values.subject} />
+              <TextField
+                id="standard"
+                name="email"
+                label="Email"
+                onChange={onChange}
+                onFocus={onFocus}
+                error={errors.email}
+                value={values.email} />
+              <TextField
                 id="standard-multiline-static"
                 name="message"
                 label="Message"
                 multiline
                 rows={5}
+                onChange={onChange}
+                onFocus={onFocus}
+                error={errors.message}
+                value={values.message}
               />
-              <Button variant="contained" color="primary" name="submit">Submit</Button>
+              <Button variant="contained" color="primary" typse="submit">Submit</Button>
             </form>
           </div>
         </div>
