@@ -71,7 +71,7 @@ fetch("/", {
 .then(()=> console.log("success"))
 .catch((e) => console.log("Error :", e));
 
-export default function BasicTextFields() {
+const Layout = ({ children })=> {
   const classes = useStyles();
 
   return (
@@ -160,3 +160,5 @@ export default function BasicTextFields() {
     </Layout>
   )
 }
+
+export default Layout;
