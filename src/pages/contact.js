@@ -137,10 +137,9 @@ const Contact = ()=> {
               method="POST"
               data-netlify="true"
               className={classes.root}>
-              <input type="hidden" name="form-name" value="contact"></input>
+              <input type="hidden" name="form-name" value="contact" />
               <TextField
                 id="standard"
-                name="name"
                 label="Name"
                 onChange={onChange}
                 onFocus={onFocus}
@@ -148,7 +147,6 @@ const Contact = ()=> {
                 value={values.name} />
               <TextField
                 id="standard"
-                name="subject"
                 label="Subject"
                 onChange={onChange}
                 onFocus={onFocus}
@@ -156,7 +154,6 @@ const Contact = ()=> {
                 value={values.subject} />
               <TextField
                 id="standard"
-                name="email"
                 label="Email"
                 onChange={onChange}
                 onFocus={onFocus}
@@ -164,7 +161,6 @@ const Contact = ()=> {
                 value={values.email} />
               <TextField
                 id="standard-multiline-static"
-                name="message"
                 label="Message"
                 multiline
                 rows={5}
