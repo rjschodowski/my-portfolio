@@ -19,6 +19,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/* Initial values for useReducer hook */
+
 const initialValues = {
   name: "",
   subject: "",
@@ -33,47 +35,65 @@ const initialErrors = {
   message: false,
 }
 
-const reducer = (currentState, nextState) => ({ ...currentState, ...nextState });
 
-const [values, setValues] = useReducer(reducer, initialValues);
-const [errors, setErrors] = useReducer(reducer, initialErrors);
-
-const onChange = (e) => {
-  setValues({ [e.target.id]: e.target.value });
-}
-
-const onFocus = (e) => {
-  setErrors({ [e.target.id]: false });
-}
-
-const encode = (data) => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
-}
-
-for(const key in values){
-  if(!values[key]){
-    setErrors({ [key]: true });
-    return;
-  }
-  setErrors({ [key]: false });
-};
-
-fetch("/", {
-  method: "POST",
-  headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  body: encode({
-    "contact": e.target.getAttribute("name"),
-    ...values,
-  })
-})
-.then(()=> console.log("success"))
-.catch((e) => console.log("Error :", e));
-
-const Contact = ({ children })=> {
+const Contact = ()=> {
   const classes = useStyles();
 
+  /* Reducer function to useReducer hook 
+  @param {name, subject, email, message} currentState
+  @param {name, subject, email, message} nextState
+  @returns next state of values
+  */
+
+  const reducer = (currentState, nextState) => ({ ...currentState, ...nextState });
+
+  const [values, setValues] = useReducer(reducer, initialValues);
+  const [errors, setErrors] = useReducer(reducer, initialErrors);
+
+  /* onChange handler */
+  
+  const onChange = (e) => {
+    setValues({ [e.target.id]: e.target.value });
+  }
+  
+/* focus handler */
+
+  const onFocus = (e) => {
+    setErrors({ [e.target.id]: false });
+  }
+  
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
+  
+/* onSubmit handler */
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+  /* Validation */
+
+  for(const key in values){
+    if(!values[key]){
+      setErrors({ [key]: true });
+      return;
+    }
+    setErrors({ [key]: false });
+  };
+  
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode({
+      "form-name": e.target.getAttribute("name"),
+      ...values,
+    })
+  })
+  .then(()=> console.log("success"))
+  .catch((e) => console.log("Error :", e));
+}
 
   return (
     <Layout>
@@ -112,6 +132,7 @@ const Contact = ({ children })=> {
           </div>
           <div className={contactForm}>
             <form
+              onSubmit={onSubmit}
               name="contact"
               method="POST"
               data-netlify="true"
@@ -152,7 +173,7 @@ const Contact = ({ children })=> {
                 error={errors.message}
                 value={values.message}
               />
-              <Button variant="contained" color="primary" typse="submit">Submit</Button>
+              <Button variant="contained" color="primary" type="submit">Submit</Button>
             </form>
           </div>
         </div>
