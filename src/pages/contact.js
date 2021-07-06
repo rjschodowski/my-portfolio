@@ -1,4 +1,5 @@
-import React, { useReducer } from 'react';
+import React from 'react';
+import { navigate } from 'gatsby-link';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,81 +20,35 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-/* Initial values for useReducer hook */
-
-const initialValues = {
-  name: "",
-  subject: "",
-  email: "",
-  message: "",
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
 }
 
-const initialErrors = {
-  name: false,
-  subject: false,
-  email: false,
-  message: false,
-}
-
-
-const Contact = ()=> {
+export default function Contact() {
   const classes = useStyles();
 
-  /* Reducer function to useReducer hook 
-  @param {name, subject, email, message} currentState
-  @param {name, subject, email, message} nextState
-  @returns next state of values
-  */
+  const [state, setState] = React.useState({})
 
-  const reducer = (currentState, nextState) => ({ ...currentState, ...nextState });
-
-  const [values, setValues] = useReducer(reducer, initialValues);
-  const [errors, setErrors] = useReducer(reducer, initialErrors);
-
-  /* onChange handler */
-  
-  const onChange = (e) => {
-    setValues({ [e.target.id]: e.target.value });
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
   }
-  
-/* focus handler */
-
-  const onFocus = (e) => {
-    setErrors({ [e.target.id]: false });
-  }
-  
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&")
-  }
-  
-/* onSubmit handler */
-
-  const onSubmit = (e) => {
-    e.preventDefault();
-
-  /* Validation */
-
-  for(const key in values){
-    if(!values[key]){
-      setErrors({ [key]: true });
-      return;
-    }
-    setErrors({ [key]: false });
-  };
-  
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encode({
-      "form-name": e.target.getAttribute("name"),
-      ...values,
+ 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
     })
-  })
-  .then(()=> console.log("success"))
-  .catch((e) => console.log("Error :", e));
-}
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error))
+  }
 
   return (
     <Layout>
@@ -132,44 +87,39 @@ const Contact = ()=> {
           </div>
           <div className={contactForm}>
             <form
-              onSubmit={onSubmit}
               name="contact"
-              method="POST"
-              action="/"
+              method="post"
+              action="/thanks/"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              className={classes.root}>
+              onSubmit={handleSubmit}
+              className={classes.root}
+              >
+                
               <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+              <label>
+                Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+              </label>
+              </p>
               <TextField
                 id="standard"
                 label="Name"
-                onChange={onChange}
-                onFocus={onFocus}
-                error={errors.name}
-                value={values.name} />
+                onChange={handleChange} />
               <TextField
                 id="standard"
                 label="Subject"
-                onChange={onChange}
-                onFocus={onFocus}
-                error={errors.subject}
-                value={values.subject} />
+                onChange={handleChange} />
               <TextField
                 id="standard"
                 label="Email"
-                onChange={onChange}
-                onFocus={onFocus}
-                error={errors.email}
-                value={values.email} />
+                onChange={handleChange} />
               <TextField
                 id="standard-multiline-static"
                 label="Message"
                 multiline
                 rows={5}
-                onChange={onChange}
-                onFocus={onFocus}
-                error={errors.message}
-                value={values.message}
+                onChange={handleChange}
               />
               <Button variant="contained" color="primary" type="submit">Submit</Button>
             </form>
@@ -180,4 +130,3 @@ const Contact = ()=> {
   )
 }
 
-export default Contact;
