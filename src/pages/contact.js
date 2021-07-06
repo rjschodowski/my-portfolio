@@ -105,16 +105,19 @@ export default function Contact() {
               <TextField
                 id="standard"
                 label="Name"
+                type="text"
                 name="name"
                 onChange={handleChange} />
               <TextField
                 id="standard"
                 label="Subject"
+                type="text"
                 name="subject"
                 onChange={handleChange} />
               <TextField
                 id="standard"
                 label="Email"
+                type="email"
                 name="email"
                 onChange={handleChange} />
               <TextField
