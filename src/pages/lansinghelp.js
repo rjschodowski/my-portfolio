@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { heading, list, stack, links, listCategories, image, contentWrapper, textContent, textDescription, link, firstLink, secondLink, headline, subheading } from '../styles/lansinghelp.module.css'
+import { heading, list, stack, links, listCategories, image, contentWrapper, textDescription, link, firstLink, secondLink, headline, subheading } from '../styles/lansinghelp.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LansingHelp = () => {
