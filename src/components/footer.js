@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { navItem, copyright } from './footer.module.css'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Footer = () => {
@@ -25,13 +24,6 @@ const Footer = () => {
                         <span>
                             <LinkedInIcon />
                         </span>   
-                    </a>
-                </li>
-                <li className={navItem}>
-                    <a href="https://twitter.com/RJSchodowski" alt="R.J. Schodowski Twitter profile" target="_blank" rel="noreferrer">
-                        <span>
-                            <TwitterIcon />
-                        </span>
                     </a>
                 </li>
                 <li className={navItem}>
