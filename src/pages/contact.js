@@ -6,7 +6,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { heading, contactContainer, contactLayout, contactText, contactSocial, socialItem, socialText, socialIcon, contactForm } from '../styles/contact.module.css'
 
@@ -66,14 +65,6 @@ export default function Contact() {
                   <LinkedInIcon />
                 </span>
                 <span className={socialText}>linkedin</span>
-              </a>
-            </div>
-            <div className={socialItem}>
-              <a href="https://twitter.com/RJSchodowski" alt="R.J. Schodowski Twitter profile" target="_blank" rel="noreferrer">
-                <span className={socialIcon}>
-                  <TwitterIcon />
-                </span>
-                <span className={socialText}>twitter</span>
               </a>
             </div>
             <div className={socialItem}>
