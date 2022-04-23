@@ -32,8 +32,7 @@ const About = () => {
                         otherwise consider using. Lastly, I have learned of the importance of collaborating with stakeholders, developers, 
                         designers, and users to ensure projects are technically solid and designed with the user’s experience always in mind.</p>
                     <p>I have been working with React, GraphQL, Material UI, and Tailwind CSS, and more recently with C and C++ in embedded 
-                        systems to create web applications and software in vehicles with clean code and clean UX. (You can see my latest work 
-                        with some of these technologies here: https://lansinghelpguide.com.) As I have been working on various personal and 
+                        systems to create web applications and software in vehicles with clean code and clean UX. As I have been working on various personal and 
                         professional projects, I have grown in confidence as a developer, and am more eager to work on more collaborative 
                         projects that will positively impact humanity in the greatest of ways. You can see my latest work with some of these 
                         technologies here: <a className={link} href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.</p>
