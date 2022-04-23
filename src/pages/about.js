@@ -37,8 +37,7 @@ const About = () => {
                         professional projects, I have grown in confidence as a developer, and am more eager to work on more collaborative 
                         projects that will positively impact humanity in the greatest of ways. You can see my latest work with some of these 
                         technologies here: <a className={link} href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.</p>
-                    <p>I'm currently looking to contribute my skills to a team where I can prove my skills while growing in my capabilities. If you are looking for a
-                        highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
+                    <p>If you are looking for a highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
                     <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
             </div>
