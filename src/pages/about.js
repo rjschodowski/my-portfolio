@@ -23,7 +23,7 @@ const About = () => {
                 <div className={contentText}>
                     <p>It was my curiosity of computer programming and markup languages paired with my social work background 
                         and drive to get resources and information to people in need that led me to software and web development. 
-                        From my first line of code to my first constructed web page, I began to unearthed a new mission: building technology 
+                        From my first line of code to my first constructed web page, I began to unearth a new mission: building technology 
                         with the purpose of improving and enhancing people’s lives.</p>
                     <p>I have learned over the past two years that what I find most fulfilling about software and web development is building 
                         applications and websites that are useful, cleverly designed, and make life a little easier for users, all while 
