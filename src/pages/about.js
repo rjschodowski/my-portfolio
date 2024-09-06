@@ -21,10 +21,9 @@ const About = () => {
                     maxHeight={800} />
                 </div>
                 <div className={contentText}>
-                    <p>It was my curiosity of computer programming and markup languages paired with my social work background 
-                        and drive to get resources and information to people in need that led me to software and web development. 
-                        From my first line of code to my first constructed web page, I began to unearth a new mission: building technology 
-                        with the purpose of improving and enhancing people’s lives.</p>
+                    <p>It was my curiosity of computer programming and software paired with my drive to help people in need that led me to software design and development. 
+                    From my first line of code to my first constructed web page, I began to unearth a new mission: creating innovative technology 
+                    with the purpose of improving and enhancing people’s lives.</p>
                     <p>I have learned over the past two years that what I find most fulfilling about software and web development is building 
                         applications and websites that are useful, cleverly designed, and make life a little easier for users, all while 
                         learning and improving on new skills and technologies. I have also learned from other experienced developers to 
