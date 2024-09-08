@@ -16,7 +16,7 @@ const IndexPage = () => {
       <div className={bodyContainer}>
         <div className={introductionSection}>
           <h1 className={heading}>Hi! I'm R.J.</h1>
-          <p className={headingDescription}>I am a socially-conscious web developer and software engineer apprentice who seeks to develop and collaborate on projects that positively impact people from all walks of life, all over the world.</p>       
+          <p className={headingDescription}>I am an energetic, outside-the-box innovator, passionate about designing and developing digital products that positively impact people from all walks of life, across the globe.</p>       
           <Link to="/about" className={link}>More about me
             <IconButton>
               <ArrowRightAltIcon className={arrow} />
