@@ -21,21 +21,35 @@ const About = () => {
                     maxHeight={800} />
                 </div>
                 <div className={contentText}>
-                    <p>It was my curiosity of computer programming and software paired with my drive to help people in need that led me to software design and development. 
-                    From my first line of code to my first constructed web page, I began to unearth a new mission: creating innovative technology 
-                    with the purpose of improving and enhancing people’s lives.</p>
-                    <p>I have learned over the past two years that what I find most fulfilling about software and web development is building 
-                        applications and websites that are useful, cleverly designed, and make life a little easier for users, all while 
-                        learning and improving on new skills and technologies. I have also learned from other experienced developers to 
-                        challenge myself to go beyond doing what is comfortable and trying out new technologies that I normally would not 
-                        otherwise consider using. Lastly, I have learned of the importance of collaborating with stakeholders, developers, 
-                        designers, and users to ensure projects are technically solid and designed with the user’s experience always in mind.</p>
-                    <p>I have been working with React, GraphQL, Material UI, and Tailwind CSS, and more recently with C and C++ in embedded 
-                        systems to create web applications and software in vehicles with clean code and clean UX. As I have been working on various personal and 
-                        professional projects, I have grown in confidence as a developer, and am more eager to work on more collaborative 
-                        projects that will positively impact humanity in the greatest of ways. You can see my latest work with some of these 
-                        technologies here: <a className={link} href="https://lansinghelpguide.com" alt="Lansing Help Guide Website" target="_blank" rel="noreferrer">Lansing Help Guide</a>.</p>
-                    <p>If you are looking for a highly-motivated, teachable, and socially-conscious developer, let's chat. </p>
+                    <p>
+                        It all started in 2003 at university when my curiosity for computers and software kindled. I would regularly see my college 
+                        roommate and dorm floor friends, mostly all CS majors, taking apart computers, programming, recording electronic music, and 
+                        discussing upcoming tech trends. Even the communal binge-watching of geeky Homestar Runner internet clips and the dizzying 
+                        rounds of Stair Dismount games quite sparked my interest in digital tech, all thanks to my friends and the dawn of Web 2.0!
+                    </p>
+                    <p>
+                        Though I went on to having a fulfilling 15 years as a bilingual social worker, the itching desire to understand and create 
+                        useful technology remained within me. It was this drive, paired with my passion to improve people’s lives, which led me to 
+                        software design and development. In 2020, when I built my first progressive web application, a hub for community human service 
+                        resources, I had unearthed a new mission: Creating innovative and user-friendly technology with the purpose of serving the 
+                        needs of others.
+                    </p>
+                    <p>
+                        What I discovered about myself over the past 3 years at Bosch is that I deeply care about creating cleverly-designed, technically-robust, 
+                        and user-centered software products. I also love learning new skills, putting them to use, and teaching them to others. Most 
+                        fulfilling is watching a colleague put to use the new skill I just passed on to them! Additionally, I learned of the importance 
+                        of project stakeholder collaboration, to ensure projects are technically solid and designed with the user’s experience always in 
+                        mind.
+                    </p>
+                    <p>
+                        At Bosch I have been working on Perfectly Keyless, in the roles of vehicle integrator and product testing. My skillset includes 
+                        software test design and development, automated test scripting, FOTA updating, C code, and NFC, BLE, UWB, and CAN technologies. 
+                        As a side hobby I work with a React, GraphQL, Material UI, and Tailwind CSS stack to build progressive web applications, all with 
+                        clean code and clean UX.
+                    </p>
+                    <p>n these endeavors I have grown in confidence as a developer and design thinker, and am eager to continue collaborating on projects 
+                        which positively impact humanity in the greatest of ways.
+                    </p>
                     <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
             </div>
