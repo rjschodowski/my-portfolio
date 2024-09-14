@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <nav className="flex justify-between items-baseline mt-12">
-            <p className={copyright}>&#169; 2022 {data.site.siteMetadata.author}</p>
+            <p className={copyright}>&#169; 2024 {data.site.siteMetadata.author}</p>
             <ul className="flex m-0 p-0">
                 <li className={navItem}>
                     <a href="https://www.linkedin.com/in/rjschodowski/" alt="R.J. Schodowski LinkedIn profile" target="_blank" rel="noreferrer">
