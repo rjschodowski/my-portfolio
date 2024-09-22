@@ -26,8 +26,8 @@ const About = () => {
                         science friends’ programming sessions, dismantling computers, and binge-watching parties of the whimsical Homestar Runner 
                         internet cartoons. Although I would go on to working 15 rewarding years as a bilingual social worker post graduation, my 
                         kindled curiosity for tech swelled. In late 2018 I embarked on my first coding courses, and by 2020, I 
-                        <Link to="/lansinghelp" className={link}>built my first progressive web app</Link> to support community human services, which led me to pursue a new passion: creating innovative, 
-                        user-friendly technology that improves people's lives.
+                        <Link to="/lansinghelp" className={link}> built my first progressive web app</Link> to support community human services, 
+                        which led me to pursue a new passion: creating innovative, user-friendly technology that improves people's lives.
                     </p>
                     <p>
                         In my current role, I work on the project Perfectly Keyless as a vehicle integrator and product tester for our embedded 
