@@ -25,8 +25,8 @@ const About = () => {
                         The year 2003 marked the genesis of my technological journey at university, where I frequently dropped in on my computer 
                         science friends’ programming sessions, dismantling computers, and binge-watching parties of the whimsical Homestar Runner 
                         internet cartoons. Although I would go on to working 15 rewarding years as a bilingual social worker post graduation, my 
-                        kindled curiosity for tech swelled. In late 2018 I embarked on my first coding courses, and by 2020, I built my first 
-                        progressive web app to support community human services, which led me to pursue a new passion: creating innovative, 
+                        kindled curiosity for tech swelled. In late 2018 I embarked on my first coding courses, and by 2020, I 
+                        <Link to="/lansinghelp" className={link}>built my first progressive web app</Link> to support community human services, which led me to pursue a new passion: creating innovative, 
                         user-friendly technology that improves people's lives.
                     </p>
                     <p>
