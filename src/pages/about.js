@@ -22,33 +22,19 @@ const About = () => {
                 </div>
                 <div className={contentText}>
                     <p>
-                        It all started in 2003 at university when my curiosity for computers and software kindled. I would regularly see my college 
-                        roommate and dorm floor friends, mostly all CS majors, taking apart computers, programming, making electronic music, and 
-                        discussing upcoming tech trends. Even the communal binge-watching of geeky Homestar Runner internet clips and the dizzying 
-                        rounds of Stair Dismount games quite sparked my interest in digital tech, all thanks to my friends and the dawn of Web 2.0!
+                        The year 2003 marked the genesis of my technological journey at university, where I frequently dropped in on my computer 
+                        science friends’ programming sessions, dismantling computers, and binge-watching parties of the whimsical Homestar Runner 
+                        internet cartoons. Although I would go on to working 15 rewarding years as a bilingual social worker post graduation, my 
+                        kindled curiosity for tech swelled. In late 2018 I embarked on my first coding courses, and by 2020, I built my first 
+                        progressive web app to support community human services, which led me to pursue a new passion: creating innovative, 
+                        user-friendly technology that improves people's lives.
                     </p>
                     <p>
-                        Though I went on to having a fulfilling 15 years as a bilingual social worker, the itching desire to understand and create 
-                        useful technology remained within me. It was this drive, paired with my passion to improve people’s lives, which led me to 
-                        software design and development. In 2020, <Link to="/lansinghelp" className={link}>when I built my first progressive web app</Link>, a hub for community human service 
-                        resources, I had unearthed a new mission: Creating innovative and user-friendly technology with the purpose of serving the 
-                        needs of others.
-                    </p>
-                    <p>
-                        What I discovered about myself over the past 3 years at Bosch is that I deeply care about creating cleverly-designed, technically-robust, 
-                        and user-centered software products. I also love learning new skills, putting them to use, and teaching them to others. Most 
-                        fulfilling is watching a colleague put to use the new skill I just passed on to them! Additionally, I learned of the importance 
-                        of project stakeholder collaboration, to ensure projects are technically solid and designed with the user’s experience always in 
-                        mind.
-                    </p>
-                    <p>
-                        At Bosch I have been working on Perfectly Keyless, in the roles of vehicle integrator and product testing. My skillset includes 
-                        software test design and development, automated test scripting, FOTA updating, C code, and NFC, BLE, UWB, and CAN technologies. 
-                        As a side hobby I work with a React, GraphQL, Material UI, and Tailwind CSS stack to build progressive web applications, all with 
-                        clean code and clean UX.
-                    </p>
-                    <p>In these endeavors I have grown in confidence as a developer and design thinker, and am eager to continue collaborating on projects 
-                        which positively impact humanity in the greatest of ways.
+                        In my current role, I work on the project Perfectly Keyless as a vehicle integrator and product tester for our embedded 
+                        software, focusing on software test design, automated scripting, and technologies like NFC, BLE, UWB, and CAN. I’m driven by 
+                        the challenge of developing technically robust, user-centered software, and I enjoy learning and teaching new skills. In my 
+                        free time, aside from making comical techno songs in Garage Band with the help of my dog Scout’s silky vocals, I build 
+                        progressive web apps using React, GraphQL, and Tailwind CSS, always with a focus on clean code and thoughtful user experiences.
                     </p>
                     <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
