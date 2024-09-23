@@ -34,7 +34,7 @@ const About = () => {
                         integrator and validation tester, focusing on software test design, automated scripting, and technical writing. I’m driven by 
                         the challenge of developing technically robust, user-centered software, and I enjoy learning and teaching new skills. In my free 
                         time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I create progressive web 
-                        apps using Affinity Designer, React, GraphQL, and Tailwind CSS, always with a focus on thoughtful user experiences and clean code.
+                        apps using Affinity Designer, React, GraphQL, and Tailwind CSS, always with a focus on a thoughtful user experience and clean code.
                     </p>
                     <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
