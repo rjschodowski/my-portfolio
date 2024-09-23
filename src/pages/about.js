@@ -22,19 +22,19 @@ const About = () => {
                 </div>
                 <div className={contentText}>
                     <p>
-                        The year 2003 marked the genesis of my technological journey at university, where I frequently dropped in on my computer 
-                        science friends’ programming sessions, dismantling computers, and binge-watching parties of the whimsical Homestar Runner 
-                        internet cartoons. Although I would go on to working 15 rewarding years as a bilingual social worker post graduation, my 
-                        kindled curiosity for tech swelled. In late 2018 I embarked on my first coding courses, and by 2020, I 
-                        <Link to="/lansinghelp" className={link}> built my first progressive web app</Link> to support community human services, 
-                        which led me to pursue a new passion: creating innovative, user-friendly technology that improves people's lives.
+                        The year 2003 marked the genesis of my tech journey, where at Spring Arbor University I quickly found dorm life consisting of 
+                        floor mates reverse engineering computers, programming, and playing hours of Call of Duty. Although I would go on to working 15 
+                        years as a bilingual social worker, my intrigue for tech had been unwittingly kindled. In late 2018 I embarked on my first 
+                        coding lessons, and by 2020, I <Link to="/lansinghelp" className={link}>built my first progressive web app</Link>, a local 
+                        community human services directory, which led me to pursue a new passion: creating innovative, user-friendly technology that 
+                        improves people's lives. 
                     </p>
                     <p>
-                        In my current role, I work on the project Perfectly Keyless as a vehicle integrator and product tester for our embedded 
-                        software, focusing on software test design, automated scripting, and technologies like NFC, BLE, UWB, and CAN. I’m driven by 
-                        the challenge of developing technically robust, user-centered software, and I enjoy learning and teaching new skills. In my 
-                        free time, aside from making comical techno songs in Garage Band with the help of my dog Scout’s silky vocals, I build 
-                        progressive web apps using React, GraphQL, and Tailwind CSS, always with a focus on clean code and thoughtful user experiences.
+                        In my current role, I work on a project team for an automotive product as an embedded software vehicle 
+                        integrator and validation tester, focusing on software test design, automated scripting, and technical writing. I’m driven by 
+                        the challenge of developing technically robust, user-centered software, and I enjoy learning and teaching new skills. In my free 
+                        time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I create progressive web 
+                        apps using Affinity Designer, React, GraphQL, and Tailwind CSS, always with a focus on thoughtful user experiences and clean code.
                     </p>
                     <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
                 </div>
