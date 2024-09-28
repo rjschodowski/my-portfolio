@@ -15,7 +15,7 @@ const IndexPage = () => {
       <SEO title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h1 className={heading}>Hi! I'm R.J.</h1>
+          <h1 className={heading}>Hi! I'm RdotJdot</h1>
           <p className={headingDescription}>Fueled by passion and innovation, I create digital products that positively enhance people’s lives, across the globe.</p>       
           <Link to="/about" className={link}>More about me
             <IconButton>
@@ -26,7 +26,7 @@ const IndexPage = () => {
         <div className={heroImage}>
           <StaticImage
               src="../images/profilephoto-removebg.png"
-              alt="profile photo of RdotJdot Schodowski"
+              alt="profile photo of R.J. Schodowski"
               placeholder="blurred"
               layout="constrained"
               maxWidth={800}
