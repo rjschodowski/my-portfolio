@@ -26,7 +26,7 @@ const IndexPage = () => {
         <div className={heroImage}>
           <StaticImage
               src="../images/profilephoto-removebg.png"
-              alt="profile photo of R.J. Schodowski"
+              alt="profile photo of RdotJdot Schodowski"
               placeholder="blurred"
               layout="constrained"
               maxWidth={800}
