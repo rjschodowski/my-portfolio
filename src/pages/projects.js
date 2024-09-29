@@ -42,8 +42,8 @@ const Projects  = () => {
                                     maxHeight={800} />
                                 </div>           
                             <h3 className={subheading}>Lansing Help Guide</h3>
-                            <p className={textDescription}>A community resource progressive web app built with React, GraphQL, Material UI, 
-                                and Tailwind CSS in Gatsby.js.
+                            <p className={textDescription}>
+                                Lansing Help Guide, a progressive web app, provides a quick starting point for Lansing newcomers in accessing help in times of need
                             </p>
                             <Button variant="contained" color="primary">
                                 VIEW PROJECT
@@ -52,7 +52,7 @@ const Projects  = () => {
                     </div>
 
                     <div className={project}>
-                        <Link to="/404">
+                        <Link to="/woof2words">
                             <div className={projectImage}>
                                 <StaticImage
                                     src="../images/Woof2Words.png"
@@ -65,6 +65,9 @@ const Projects  = () => {
                             <h3 className={subheading}>Woof2Words</h3>
                             <p className={textDescription}>A brand development guide for a tech-savvy and inventive start-up company targeting dog parents everywhere.                     
                             </p>
+                            <Button variant="contained" color="primary">
+                                VIEW PROJECT
+                            </Button>
                         </Link>
                     </div>
                 </div>
