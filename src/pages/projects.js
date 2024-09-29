@@ -55,16 +55,15 @@ const Projects  = () => {
                         <Link to="/404">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/placeholder.svg"
-                                    alt="temporary placeholder image"
+                                    src="../images/Woof2Words.jpg"
+                                    alt="mobile app image of Woof2Words Brand Development Guide"
                                     placeholder="blurred"
                                     layout="constrained"
                                     maxWidth={800}
                                     maxHeight={800} />
                             </div>
-                            <h3 className={subheading}>Forget-Me-Shop</h3>
-                            <p className={textDescription}>This project is my current work in progress. It is a grocery shopping app geared toward those
-                            couples and families who need their shopping list updated in real-time. More to come soon!
+                            <h3 className={subheading}>Woof2Words</h3>
+                            <p className={textDescription}>A brand development guide for a tech-savvy and inventive start-up company targeting dog parents everywhere.                     
                             </p>
                         </Link>
                     </div>
