@@ -52,8 +52,8 @@ export default function Contact() {
   return (
     <Layout>
       <SEO title="Contact" />
+      <h1 className={heading}>Contact Me</h1>
       <div className={contactContainer}>
-        <h1 className={heading}>Contact Me</h1>
         <div className={contactLayout}>
           <div className={contactSocial}>
             <div className={contactText}>
