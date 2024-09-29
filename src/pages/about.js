@@ -13,7 +13,7 @@ const About = () => {
             <div className={contentContainer}>
                 <div className={contentImage}>
                     <StaticImage
-                    src="../images/profilephoto-removebg.png"
+                    src="../images/RJProfilePic.jpg"
                     alt="profile photo of R.J. Schodowski"
                     placeholder="blurred"
                     layout="constrained"
@@ -36,7 +36,7 @@ const About = () => {
                         time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I create progressive web 
                         apps using Affinity Designer, React, GraphQL, and Tailwind CSS, always with a focus on a thoughtful user experience and clean code.
                     </p>
-                    <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
+                    <p>Let's connect. <Link to="/contact" className={link}>Drop me a line</Link> for any collaboration work or just to say hello!</p>
                 </div>
             </div>
         </Layout>

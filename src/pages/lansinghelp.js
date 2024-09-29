@@ -131,7 +131,7 @@ const LansingHelp = () => {
                     positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
                     and consulting with other seasoned developers.
                 </p>
-                <p><Link to="/contact" className={link}>Want to work with me? Reach out</Link>.</p>
+                <p>Let's connect. <Link to="/contact" className={link}>Drop me a line</Link> for any collaboration work or just to say hello!</p>
             </div>
         </Layout>
     )
