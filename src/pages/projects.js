@@ -55,7 +55,7 @@ const Projects  = () => {
                         <Link to="/404">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/Woof2Words.jpg"
+                                    src="../images/Woof2Words.png"
                                     alt="mobile app image of Woof2Words Brand Development Guide"
                                     placeholder="blurred"
                                     layout="constrained"
