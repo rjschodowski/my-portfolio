@@ -17,15 +17,20 @@ const Woof2Words = () => {
                 </p>
             </div>
             <div className={contentWrapper}>
-                <div className={image}>
-                    <StaticImage
-                    src="../images/mobilehomescreen.png"
-                    alt="mobile version of application's home screen"
-                    placeholder="blurred"
-                    layout="constrained"
-                    maxWidth={800}
-                    maxHeight={800} />
-                </div>
+                <Link to="/https://issuu.com/rjschodowski/docs/woof2wordsbranddevelopmentguide">
+                    <div className={image}>
+                        <StaticImage
+                        src="../images/woof2words.png"
+                        alt="Brand development guide image with link to the guide hosted on issuu.com"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                    </div>
+                    <Button variant="contained" color="primary">
+                        VIEW FULL GUIDE
+                    </Button>
+                </Link>
             </div>
             
             <div className={contentWrapper}>
