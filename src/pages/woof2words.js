@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 import { heading, list, stack, links, listCategories, image, contentWrapper, textDescription, link, firstLink, secondLink, headline, subheading } from '../styles/woof2words.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const LansingHelp = () => {
+const Woof2Words = () => {
     return (
         <Layout>
             <SEO title="Woof2Words"/>
@@ -77,4 +77,4 @@ const LansingHelp = () => {
     )
 }
 
-export default LansingHelp
+export default Woof2Words
