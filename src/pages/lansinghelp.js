@@ -54,12 +54,13 @@ const LansingHelp = () => {
             <div className={contentWrapper}>
                 <h3 className={subheading}>Project Background and Purpose</h3>
                 <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
-                    transitioning into independent living in Lansing, Michigan. After having spent many days with refugee 
-                    youth moving to Lansing, it became clear that many were unfamiliar with the city’s community resources, 
-                    and I decided to create an easy-to-use app for them (and other Lansing newcomers) to have handy in case of 
+                    transitioning into independent living in Lansing, Michigan. After having spent many days with the 
+                    youth, it became clear that many were unfamiliar with the city’s community resources, 
+                    so I decided to create an easy-to-use app for them (and other Lansing newcomers) to have available in case of 
                     an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and 
                     businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people who
-                    are just getting to know Lansing.                    </p>
+                    are just getting to know Lansing.
+                </p>
                 <p className={textDescription}>This project allows users to quickly access listed content (community resources) 
                     items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
                     was built mobile-first due to the fact that the majority of users are more likely to be using mobile 
