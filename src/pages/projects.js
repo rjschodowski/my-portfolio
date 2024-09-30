@@ -31,7 +31,7 @@ const Projects  = () => {
                 </div>
                 <div className={projectRow}>
                     <div className={project}>
-                        <Link to="/lansinghelp">
+                        <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
                                     src="../images/mobilehomescreen.png"
@@ -52,7 +52,7 @@ const Projects  = () => {
                     </div>
 
                     <div className={project}>
-                        <Link to="/woof2words">
+                        <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
                                     src="../images/Woof2Words.png"
