@@ -43,7 +43,7 @@ const Projects  = () => {
                                 </div>           
                             <h3 className={subheading}>Lansing Help Guide</h3>
                             <p className={textDescription}>
-                                Lansing Help Guide, a solution to providing a quick starting point for Lansing, MI newcomers in accessing emergency services.
+                                Lansing Help Guide, a solution to providing quick access to emergency services in Lansing, MI.
                             </p>
                             <Button variant="contained" color="primary">
                                 VIEW PROJECT
