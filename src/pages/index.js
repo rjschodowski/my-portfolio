@@ -29,8 +29,8 @@ const IndexPage = () => {
               alt="profile photo of R.J. Schodowski"
               placeholder="blurred"
               layout="constrained"
-              maxWidth={500}
-              maxHeight={500} />
+              maxWidth={250}
+              maxHeight={250} />
         </div>
       </div>
     </Layout>
