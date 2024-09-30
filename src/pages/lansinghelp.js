@@ -60,7 +60,7 @@ const LansingHelp = () => {
                     an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and 
                     businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people who
                     are just getting to know Lansing.                    </p>
-                <p className={textDescription}>Technically speaking, this project allows users to quickly access listed content (community resources) 
+                <p className={textDescription}>This project allows users to quickly access listed content (community resources) 
                     items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
                     was built mobile-first due to the fact that the majority of users are more likely to be using mobile 
                     devices vs. laptop and desktop computers. The app is fully responsive and SEO-ready.
