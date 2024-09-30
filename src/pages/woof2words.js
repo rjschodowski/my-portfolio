@@ -36,13 +36,8 @@ const Woof2Words = () => {
             
             <div className={contentWrapper}>
                 <h3 className={subheading}>Project Background and Purpose</h3>
-                <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
-                    transitioning into independent living in Lansing, Michigan. After having spent many days with refugee 
-                    youth moving to Lansing, it became clear that many were unfamiliar with the city’s community resources, 
-                    and I decided to create an easy-to-use app for them (and other Lansing newcomers) to have handy in case of 
-                    an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and 
-                    businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people who
-                    are just getting to know Lansing.                    </p>
+                <p className={textDescription}>Woof woof.
+                </p>
                 <div className={image}>
                     <StaticImage
                         src="../images/desktopview.png"
@@ -73,9 +68,7 @@ const Woof2Words = () => {
                     <li>Create prototypes of print and digital products with branding</li>
                 </ul>
                 <p className={textDescription}>
-                    Overall this project taught me to think more programmatically while maintaining a goal of providing a 
-                    positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
-                    and consulting with other seasoned developers.
+                Woof woof.
                 </p>
                 <p>Let's connect. <Link to="/contact" className={link}>Drop me a line</Link> for any collaboration work or just to say hello!</p>
             </div>
