@@ -15,7 +15,7 @@ const IndexPage = () => {
       <SEO title="Home"/>
       <div className={bodyContainer}>
         <div className={introductionSection}>
-          <h2 className={heading}>Hi! I'm R.J.</h2>
+          <h3 className={heading}>Hi! I'm R.J.</h3>
           <p className={headingDescription}>Fueled by passion and innovation, I create digital products that positively enhance people’s lives, across the globe.</p>       
           <Link to="/about" className={link}>More about me
             <IconButton>
