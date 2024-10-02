@@ -13,7 +13,7 @@ const About = () => {
             <div className={contentContainer}>
                 <div className={contentImage}>
                     <StaticImage
-                    src="../images/RJProfilePic-510px.jpg"
+                    src="../images/KT4_5361.jpg"
                     alt="profile photo of R.J. Schodowski"
                     placeholder="blurred"
                     layout="constrained"
