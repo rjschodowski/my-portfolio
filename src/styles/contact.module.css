@@ -1,5 +1,5 @@
 .heading {
-  font-size: 3.75rem;
+  font-size: 2.5rem;
   margin-top: 1.25rem;
   margin-bottom: 3.75rem;
   animation: pulse 2.5s;
@@ -52,7 +52,7 @@
   }
 
   .heading {
-    font-size: 4rem;
+    font-size: 2.66rem;
     margin-top: 2.5rem;
     margin-bottom: 5rem;
   }
