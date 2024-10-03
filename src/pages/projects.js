@@ -23,11 +23,7 @@ const Projects  = () => {
             <h1 className={heading}>Projects</h1>
             <div className={projectsContainer}>
                 <div className={textDescription}>
-                    <p className={textDescription}>I am always looking for projects to design and build, 
-                    whether my own or working collaboratively with others.
-                        Here is what I have accomplished so far and what I am
-                        currently working on:
-                    </p>
+                    <h3 className={textDescription}>UI and Graphic Designs</h3>
                 </div>
                 <div className={projectRow}>
                     <div className={project}>
@@ -71,6 +67,53 @@ const Projects  = () => {
                         </Link>
                     </div>
                 </div>
+
+                <div className={textDescription}>
+                    <h3 className={textDescription}>Marketing Communications</h3>
+                </div>
+                <div className={projectRow}>
+                    <div className={project}>
+                        <Link to="/siteconstruction">
+                            <div className={projectImage}>
+                                <StaticImage
+                                    src="../images/chs.png"
+                                    alt="mobile version of application's home screen"
+                                    placeholder="blurred"
+                                    layout="constrained"
+                                    maxWidth={800}
+                                    maxHeight={800} />
+                                </div>           
+                            <h3 className={subheading}>What We Really Think About Life at CHS</h3>
+                            <p className={textDescription}>
+                                Lorem ipsum gandalf shoots fireworks.
+                            </p>
+                            <Button variant="contained" color="primary">
+                                VIEW PROJECT
+                            </Button>
+                        </Link>
+                    </div>
+
+                    <div className={project}>
+                        <Link to="/siteconstruction">
+                            <div className={projectImage}>
+                                <StaticImage
+                                    src="../images/globe.jpg"
+                                    alt="mobile app image of Woof2Words Brand Development Guide"
+                                    placeholder="blurred"
+                                    layout="constrained"
+                                    maxWidth={800}
+                                    maxHeight={800} />
+                            </div>
+                            <h3 className={subheading}>Placeholder Project</h3>
+                            <p className={textDescription}>Lorem ipsum Saruman is defeated.                     
+                            </p>
+                            <Button variant="contained" color="primary">
+                                VIEW PROJECT
+                            </Button>
+                        </Link>
+                    </div>
+                </div>
+
             </div>
         </Layout>
     )
