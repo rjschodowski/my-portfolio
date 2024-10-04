@@ -11,8 +11,8 @@ const LansingHelp = () => {
             <SEO title="Lansing Help Guide"/>
             <div className={contentWrapper}>
                 <h1 className={heading}>Lansing Help Guide</h1>
-                <p className={textDescription}><i className={headline}>"Lansing Help Guide provides a quick starting point 
-                    for Lansing newcomers in accessing help in times of need."</i>
+                <p className={`${styles.textDescription} ${styles.headline}`}>A quick starting point 
+                    for Lansing newcomers in accessing help in times of need.
                 </p>
                 <p className={textDescription}>Lansing Help Guide is a React progressive web application, which was built using
                     the GraphQL-powered Gatsby.js static site generator, Tailwind CSS, and Material UI 
