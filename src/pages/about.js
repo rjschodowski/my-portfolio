@@ -22,20 +22,13 @@ const About = () => {
                 </div>
                 <div className={contentText}>
                     <p>
-                        The year 2003 marked the genesis of my tech journey, where at Spring Arbor University I quickly found dorm life consisting of 
-                        floor mates reverse engineering computers, programming, and playing hours of Call of Duty. Although I would go on to working 15 
-                        years as a bilingual social worker, my intrigue for tech had been unwittingly kindled. In late 2018 I embarked on my first 
-                        coding lessons, and by 2020, I <Link to="/lansinghelp" className={link}>built my first progressive web app</Link>, a local 
-                        community human services directory, which led me to pursue a new passion: creating innovative, user-friendly technology that 
-                        improves people's lives. 
+                        With a unique background in social work and software engineering, and having lived and worked in various parts of Latin America,
+                        I bring a diverse perspective to UX design. I specialize in creating digital designs for screens and print, and I'm passionate about 
+                        crafting intuitive and visually appealing user experiences. My multi-faceted experience allows me to approach design challenges with 
+                        empathy and creativity, ensuring that every project meets the needs of its users. 
                     </p>
-                    <p>
-                        In my current role, I work on a project team for an automotive product as an embedded software vehicle 
-                        integrator and validation tester, focusing on software test design, automated scripting, and technical writing. I’m driven by 
-                        the challenge of developing technically robust, user-centered software, and I enjoy learning and teaching new skills. In my free 
-                        time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I create progressive web 
-                        apps using Affinity Designer, React, GraphQL, and Tailwind CSS, always with a focus on a thoughtful user experience and clean code.
-                    </p>
+                    <p>In my free time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I enjoy making watercolor 
+                        and acrylic paintings, as well as tasting the amazing zucchini bread my wife makes every year.</p>
                     <p>Let's connect. <Link to="/contact" className={link}>Drop me a line</Link> for any collaboration work or just to say hello!</p>
                 </div>
             </div>
