@@ -22,6 +22,9 @@ const Projects  = () => {
             <SEO title="Projects" />
             <h1 className={heading}>Projects</h1>
             <div className={projectsContainer}>
+
+            /* -------------------------UI/Graphic/Visual Designs Section ----------------------------- */
+
                 <div className={textDescription}>
                     <h3 className={textDescription}>UI and Graphic Designs</h3>
                 </div>
@@ -67,7 +70,7 @@ const Projects  = () => {
                         </Link>
                     </div>
                 </div>
-
+/* -------------------------Marketing Communications Section ----------------------------- */
                 <div className={textDescription}>
                     <h3 className={textDescription}>Marketing Communications</h3>
                 </div>
@@ -113,6 +116,8 @@ const Projects  = () => {
                         </Link>
                     </div>
                 </div>
+
+                /* -------------------------Content Writing Section----------------------------- */
 
             </div>
         </Layout>
