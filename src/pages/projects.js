@@ -123,14 +123,14 @@ const Projects  = () => {
                         <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/chs.png"
+                                    src="../images/fav-icon.png"
                                     alt="mobile version of application's home screen"
                                     placeholder="blurred"
                                     layout="constrained"
                                     maxWidth={800}
                                     maxHeight={800} />
                                 </div>           
-                            <h3 className={subheading}>What We Really Think About Life at CHS</h3>
+                            <h3 className={subheading}>Placeholder Project</h3>
                             <p className={textDescription}>
                                 Lorem ipsum gandalf shoots fireworks.
                             </p>
