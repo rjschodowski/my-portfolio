@@ -11,7 +11,7 @@ const LansingHelp = () => {
             <SEO title="Lansing Help Guide"/>
             <div className={contentWrapper}>
                 <h1 className={heading}>Lansing Help Guide</h1>
-                <p className={`${styles.textDescription} ${styles.headline}`}>A quick starting point 
+                <p className={`${textDescription} ${headline}`}>A quick starting point 
                     for Lansing newcomers in accessing help in times of need.
                 </p>
                 <p className={textDescription}>Lansing Help Guide is a React progressive web application, which was built using
