@@ -98,7 +98,7 @@ const Projects  = () => {
                         <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/globe.jpg"
+                                    src="../images/fav-icon.png"
                                     alt="mobile app image of Woof2Words Brand Development Guide"
                                     placeholder="blurred"
                                     layout="constrained"
