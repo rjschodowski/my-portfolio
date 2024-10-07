@@ -40,7 +40,7 @@ const Projects  = () => {
                                 </div>           
                             <h3 className={subheading}>Case Study: Lansing Help Guide</h3>
                             <p className={textDescription}>
-                                Lansing Help Guide, a solution to providing quick access to emergency services in Lansing, MI.
+                                A mobile solution to providing quick access to emergency services in Lansing, MI.
                             </p>
                             <Button variant="contained" color="primary">
                                 VIEW PROJECT
