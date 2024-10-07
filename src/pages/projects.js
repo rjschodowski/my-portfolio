@@ -24,7 +24,7 @@ const Projects  = () => {
 
 
                 <div className={textDescription}>
-                    <h1 className={heading}>UI and Graphic Designs</h1>
+                    <h1 className={heading}>UI Designs</h1>
                 </div>
                 <div className={projectRow}>
                     <div className={project}>
@@ -48,58 +48,38 @@ const Projects  = () => {
                         </Link>
                     </div>
 
-                    <div className={project}>
-                        <Link to="/siteconstruction">
-                            <div className={projectImage}>
-                                <StaticImage
-                                    src="../images/Woof2Words.png"
-                                    alt="mobile app image of Woof2Words Brand Development Guide"
-                                    placeholder="blurred"
-                                    layout="constrained"
-                                    maxWidth={800}
-                                    maxHeight={800} />
-                            </div>
-                            <h3 className={subheading}>Woof2Words</h3>
-                            <p className={textDescription}>A brand development guide for a tech-savvy and inventive start-up company targeting dog parents everywhere.                     
-                            </p>
-                            <Button variant="contained" color="primary">
-                                VIEW PROJECT
-                            </Button>
-                        </Link>
-                    </div>
                 </div>
 
                 <div className={textDescription}>
-                <h1 className={heading}>Marketing Communications</h1>
+                <h1 className={heading}>Branding & Graphic Designs</h1>
                 </div>
                 <div className={projectRow}>
-                    <div className={project}>
-                        <Link to="/siteconstruction">
-                            <div className={projectImage}>
-                                <StaticImage
-                                    src="../images/chs.png"
-                                    alt="mobile version of application's home screen"
-                                    placeholder="blurred"
-                                    layout="constrained"
-                                    maxWidth={800}
-                                    maxHeight={800} />
-                                </div>           
-                            <h3 className={subheading}>What We Really Think About Life at CHS</h3>
-                            <p className={textDescription}>
-                                Lorem ipsum gandalf shoots fireworks.
-                            </p>
-                            <Button variant="contained" color="primary">
-                                VIEW PROJECT
-                            </Button>
-                        </Link>
-                    </div>
+                <div className={project}>
+                    <Link to="/siteconstruction">
+                        <div className={projectImage}>
+                            <StaticImage
+                                src="../images/Woof2Words.png"
+                                alt="mobile app image of Woof2Words Brand Development Guide"
+                                placeholder="blurred"
+                                layout="constrained"
+                                maxWidth={800}
+                                maxHeight={800} />
+                        </div>
+                        <h3 className={subheading}>Woof2Words</h3>
+                        <p className={textDescription}>A brand development guide for a tech-savvy and inventive start-up company targeting dog parents everywhere.                     
+                        </p>
+                        <Button variant="contained" color="primary">
+                            VIEW PROJECT
+                        </Button>
+                    </Link>
+                </div>
 
                     <div className={project}>
                         <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
                                     src="../images/fav-icon.png"
-                                    alt="mobile app image of Woof2Words Brand Development Guide"
+                                    alt="placeholder image for a future graphic design project showcase"
                                     placeholder="blurred"
                                     layout="constrained"
                                     maxWidth={800}
@@ -113,53 +93,7 @@ const Projects  = () => {
                             </Button>
                         </Link>
                     </div>
-                </div>
-
-                <div className={textDescription}>
-                <h1 className={heading}>Content Writing</h1>
-                </div>
-                <div className={projectRow}>
-                    <div className={project}>
-                        <Link to="/siteconstruction">
-                            <div className={projectImage}>
-                                <StaticImage
-                                    src="../images/fav-icon.png"
-                                    alt="mobile version of application's home screen"
-                                    placeholder="blurred"
-                                    layout="constrained"
-                                    maxWidth={800}
-                                    maxHeight={800} />
-                                </div>           
-                            <h3 className={subheading}>Placeholder Project</h3>
-                            <p className={textDescription}>
-                                Lorem ipsum gandalf shoots fireworks.
-                            </p>
-                            <Button variant="contained" color="primary">
-                                VIEW PROJECT
-                            </Button>
-                        </Link>
-                    </div>
-
-                    <div className={project}>
-                        <Link to="/siteconstruction">
-                            <div className={projectImage}>
-                                <StaticImage
-                                    src="../images/fav-icon.png"
-                                    alt="mobile app image of Woof2Words Brand Development Guide"
-                                    placeholder="blurred"
-                                    layout="constrained"
-                                    maxWidth={800}
-                                    maxHeight={800} />
-                            </div>
-                            <h3 className={subheading}>Placeholder Project</h3>
-                            <p className={textDescription}>Lorem ipsum Saruman is defeated.                     
-                            </p>
-                            <Button variant="contained" color="primary">
-                                VIEW PROJECT
-                            </Button>
-                        </Link>
-                    </div>
-                </div>           
+                </div>         
 
             </div>
         </Layout>
