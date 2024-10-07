@@ -38,7 +38,7 @@ const Projects  = () => {
                                     maxWidth={800}
                                     maxHeight={800} />
                                 </div>           
-                            <h3 className={subheading}>Lansing Help Guide</h3>
+                            <h3 className={subheading}>Case Study: Lansing Help Guide</h3>
                             <p className={textDescription}>
                                 Lansing Help Guide, a solution to providing quick access to emergency services in Lansing, MI.
                             </p>
@@ -65,7 +65,7 @@ const Projects  = () => {
                                 maxWidth={800}
                                 maxHeight={800} />
                         </div>
-                        <h3 className={subheading}>Woof2Words</h3>
+                        <h3 className={subheading}>Case Study: Woof2Words</h3>
                         <p className={textDescription}>A brand development guide for a tech-savvy and inventive start-up company targeting dog parents everywhere.                     
                         </p>
                         <Button variant="contained" color="primary">
