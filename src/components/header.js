@@ -23,10 +23,10 @@ const Header = () => {
             <nav>
                 <ul className={navList}>
                     <li>
-                        <Link className={navItem} activeClassName={activeNavItem} to="/about">About</Link>
+                        <Link className={navItem} activeClassName={activeNavItem} to="/projects">Portfolio</Link>
                     </li>
                     <li>
-                        <Link className={navItem} activeClassName={activeNavItem} to="/projects">Projects</Link>
+                        <Link className={navItem} activeClassName={activeNavItem} to="/about">About</Link>
                     </li>
                     <li>
                         <Link className={navItem} activeClassName={activeNavItem} to="/contact">Contact</Link>
