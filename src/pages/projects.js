@@ -31,7 +31,7 @@ const Projects  = () => {
                         <Link to="/siteconstruction">
                             <div className={projectImage}>
                                 <StaticImage
-                                    src="../images/mobilehomescreen.png"
+                                    src="../images/lansinghelpguide/mobilehomescreen.png"
                                     alt="mobile version of application's home screen"
                                     placeholder="blurred"
                                     layout="constrained"
@@ -58,7 +58,7 @@ const Projects  = () => {
                     <Link to="/siteconstruction">
                         <div className={projectImage}>
                             <StaticImage
-                                src="../images/Woof2Words.png"
+                                src="../images/projectspageimages/Woof2Words.png"
                                 alt="mobile app image of Woof2Words Brand Development Guide"
                                 placeholder="blurred"
                                 layout="constrained"
