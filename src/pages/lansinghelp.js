@@ -70,8 +70,7 @@ const LansingHelp = () => {
                     The first version of this progressive web app is far from being the last - upcoming versions will include 
                     more assistance categories, a language selector for the content to translate to other common languages 
                     spoken among the various cultures in the greater Lansing area, and finally a rating system for users to be 
-                    able to share their experiences and ratings with other users. This app will also soon be available on the 
-                    Google Play Store.
+                    able to share their experiences and ratings with other users.
                 </p>
                 <div className={image}>
                     <StaticImage

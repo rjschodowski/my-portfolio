@@ -28,7 +28,7 @@ const Projects  = () => {
                 </div>
                 <div className={projectRow}>
                     <div className={project}>
-                        <Link to="/siteconstruction">
+                        <Link to="/lansinghelp">
                             <div className={projectImage}>
                                 <StaticImage
                                     src="../images/mobilehomescreen.png"
