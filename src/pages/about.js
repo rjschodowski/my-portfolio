@@ -23,9 +23,9 @@ const About = () => {
                 <div className={contentText}>
                     <p>
                         With a unique background in social work and software engineering, and having lived and worked in various parts of Latin America,
-                        I bring a diverse perspective to UX design. I specialize in creating digital UI and graphic designs, and I'm passionate about 
-                        crafting intuitive and visually appealing user experiences. My multi-faceted experience allows me to approach design challenges with 
-                        empathy and creativity, ensuring that every project meets the needs of its users. 
+                        I bring a diverse perspective to UX design. I specialize in creating <Link to="/projects" className={link}>digital UI and graphic designs</Link>, 
+                        and I'm passionate about crafting intuitive and visually appealing user experiences. My multi-faceted experience allows me to approach design 
+                        challenges with empathy and creativity, ensuring that every project meets the needs of its users. 
                     </p>
                     <p>In my free time, aside from making whimsical techno songs in Garage Band with my dog Scout and his silky vocals, I enjoy making watercolor 
                         and acrylic paintings, as well as tasting the amazing zucchini bread my wife makes every year.</p>
