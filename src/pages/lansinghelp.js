@@ -53,24 +53,13 @@ const LansingHelp = () => {
             
             <div className={contentWrapper}>
                 <h3 className={subheading}>Project Background and Purpose</h3>
-                <p className={textDescription}>Lansing Help Guide’s inspiration came from having been working with young adult, refugee youth 
-                    transitioning into independent living in Lansing, Michigan. After having spent many days with the 
-                    youth, it became clear that many were unfamiliar with the city’s community resources, 
-                    so I decided to create an easy-to-use app for them (and other Lansing newcomers) to have available in case of 
-                    an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and 
-                    businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people who
-                    are just getting to know Lansing.
+                <p className={textDescription}>Lansing Help Guide’s inspiration came from my experience working with young adult, refugee youth transitioning into independent living from foster care in Lansing, Michigan. After having spent many days with the youth in their homes as their house supervisor, it became evident that many were unfamiliar with the city’s community resources. I decided to create an easy-to-use app for them (and other Lansing newcomers) to have available in case of an urgent or emergent need. The goal was not to create an exhaustive list of all local organizations and businesses in the city, but rather a quick and accessible starter guide with well-known and trusted resources for people looking for assistance services who are just getting to know Lansing.
                 </p>
                 <p className={textDescription}>This project allows users to quickly access listed content (community resources) 
-                    items by phone, Google Maps, live chat (whenever available), and their respective websites. This project 
-                    was built mobile-first due to the fact that the majority of users are more likely to be using mobile 
-                    devices vs. laptop and desktop computers. The app is fully responsive and SEO-ready.
+                items by phone, Google Maps, live chat (whenever available), and their respective websites. This project was built mobile-first due to the fact that the majority of users are more likely to be using mobile devices vs. laptop and desktop computers. The app is fully responsive and SEO-ready.
                 </p>
                 <p className={textDescription}>
-                    The first version of this progressive web app is far from being the last - upcoming versions will include 
-                    more assistance categories, a language selector for the content to translate to other common languages 
-                    spoken among the various cultures in the greater Lansing area, and finally a rating system for users to be 
-                    able to share their experiences and ratings with other users.
+                The first version of this progressive web app is far from being the last - upcoming versions will include more assistance categories, a language selector for the content to translate to other common languages spoken among the various cultures in the greater Lansing area, and finally a rating system for users to be able to share their experiences and ratings with other users.
                 </p>
                 <div className={image}>
                     <StaticImage
@@ -84,30 +73,13 @@ const LansingHelp = () => {
             </div>
 
             <div className={contentWrapper}>
-                <h3 className={subheading}>Web Stack</h3>
-                <p className={textDescription}>
-                    I chose to build my project with Gatsby.js since this static site generator is React-based, is powered 
-                    with GraphQL, and enables developers to easily convert static sites into progressive web applications. 
-                    With the installation of a few helpful plugins, I was able to add in Material UI components, easily style 
-                    the application with Tailwind CSS, and convert the project into a downloadable progressive web app. Finally, 
-                    I chose Netlify for web hosting and deployment.
-                </p>
                 <h3 className={subheading}>Problems Encountered</h3>
                 <p className={textDescription}>
-                    Of several problems I worked through, one particular technical challenge I faced was learning to style the 
-                    Material UI button components. I had initially assumed I could easily style them using Tailwind CSS, but I 
-                    rather quickly realized that this was not the case. This forced me to consult the Material UI button API 
-                    documentation and the Net Ninja’s Material UI YouTube video series, and there I learned to customize and 
-                    override default styles with CSS rules.
+                    I knew during the ideation and design process that I wanted to include an emergency 911 button for users to easily access if needed. I initially thought to put the button at the top of the page under the header for visibility. I had a few of the youth and colleagues test out the app for user experience feedback, and the feedback I received was that the button may be touched unintentionally since it is likely the first thing the user will see. This feedback helped me to move the button to the footer component, where it is still visible and easily accessible, but less likely to be unintentionally pressed.
+
                 </p>
                 <p className={textDescription}>
-                    Another problem I ran into was design-related. I knew during the ideation and design process that I wanted 
-                    to include an emergency 911 button for users to easily access if needed. I initially thought to put the 
-                    button at the top of the page under the header for visibility. I had a few colleagues test out the app for 
-                    user experience feedback, and the feedback I received was that the button may be touched unintentionally 
-                    since it is likely the first thing the user will see. This feedback helped me to move the button to the 
-                    footer component, where it is still visible and easily accessible, but less likely to be unintentionally 
-                    pressed.
+                Of several technical problems I worked through, one particular challenge I faced was learning to style the Material UI button components. I had initially assumed I could easily style them using Tailwind CSS, but I rather quickly realized that this was not the case. This forced me to consult the Material UI button API documentation and the Net Ninja’s Material UI YouTube video series, and there I learned to customize and override default styles with CSS rules.
                 </p>
 
                 <h3 className={subheading}>Lessons Learned</h3>
@@ -116,6 +88,7 @@ const LansingHelp = () => {
                 experience. I learned how to:
                 </p>
                 <ul className={list}>
+                    <li>Create a prototype, get user feedback, and iterate on the product design to better meet the users' needs</li>
                     <li>Refactor code to create, use, and reuse React components</li>
                     <li>Use props for component variations</li>
                     <li>Perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
@@ -127,9 +100,7 @@ const LansingHelp = () => {
                     <li>Deploy the project to Netlify</li>
                 </ul>
                 <p className={textDescription}>
-                    Overall this project taught me to think more programmatically while maintaining a goal of providing a 
-                    positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches 
-                    and consulting with other seasoned developers.
+                 Overall this project pushed me to follow the human-centered design process from start to finish, and it also taught me to think more programmatically while maintaining the goal of providing a positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches and consulting with other seasoned designers and developers.
                 </p>
                 <p>Let's connect. <Link to="/contact" className={link}>Drop me a line</Link> for any collaboration work or just to say hello!</p>
             </div>
