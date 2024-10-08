@@ -61,15 +61,6 @@ const LansingHelp = () => {
                 <p className={textDescription}>
                 The first version of this progressive web app is far from being the last - upcoming versions will include more assistance categories, a language selector for the content to translate to other common languages spoken among the various cultures in the greater Lansing area, and finally a rating system for users to be able to share their experiences and ratings with other users.
                 </p>
-                <div className={image}>
-                    <StaticImage
-                        src="../images/desktopview.png"
-                        alt="Desktop version view of application's screen"
-                        placeholder="blurred"
-                        layout="constrained"
-                        maxWidth={800}
-                        maxHeight={800} />
-                </div>
             </div>
 
             <div className={contentWrapper}>
@@ -89,19 +80,50 @@ const LansingHelp = () => {
                         maxWidth={800}
                         maxHeight={800} />
                 </div>
-                <p className={textDescription}>I had been starting to take my sketches and journey map to create a prototype, but it 
-                    was when I realized the specific need for our independent living youth and other Lansing newcomers to have an simpler way to 
-                    access emergency and other community services that I decided to shift from a full-blown visitor's guide to a human services 
-                    resource for people in need, especially those arriving from different lands.
-                </p>
                 <p className={textDescription}>I started by taking the many resources I had already accumulated for the original website idea, and I 
                     selected the categories that seemed to come up most from our youth and also those that also are essential, such as domestic violence 
                     support centers.
                 </p>
                 <div className={image}>
                     <StaticImage
-                        src="../images/desktopview.png"
-                        alt="Desktop version view of application's screen"
+                        src="../images/lhginitialbrainstorm.jpg"
+                        alt="Lansing Help Guide brainstorming ideas on lined paper"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/lhgroughwireframes.jpg"
+                        alt="Lansing Help Guide rough wireframing drawing"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/mainscreen.jpg"
+                        alt="Lansing Help Guide rough wireframing drawing of main menu"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/pagetwo.jpg"
+                        alt="Lansing Help Guide rough wireframing drawing of the medical services page"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/dlnavmenusketch.jpg"
+                        alt="Dónde Lansing nav menu rough sketchup"
                         placeholder="blurred"
                         layout="constrained"
                         maxWidth={800}
