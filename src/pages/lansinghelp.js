@@ -75,7 +75,10 @@ const LansingHelp = () => {
             <div className={contentWrapper}>
                 <h3 className={subheading}>Conceptualization</h3>
                 <p className={textDescription}>Prior to this project, I had already begun working on a website for Lansing residents and visitors, 
-                    affectionately called Dónde Lansing.
+                    affectionately called Dónde Lansing. I had been starting to take my sketches and journey map to create a prototype, but it was 
+                    when I realized the specific need for our independent living youth and other Lansing newcomers to have an simpler way to access 
+                    emergency and other community services that I decided to shift from a full-blown visitor's guide to a human services resource for 
+                    people in need, especially those arriving from different lands.
                 </p>
                 <div className={image}>
                     <StaticImage
