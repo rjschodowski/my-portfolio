@@ -122,7 +122,7 @@ const LansingHelp = () => {
                 experience. I learned how to:
                 </p>
                 <ul className={list}>
-                    <li>Create a prototype, get user feedback, and iterate on the product design to better meet the users' needs</li>
+                    <li>Create a prototype, get user feedback, and iterate on the product design to better meet user needs</li>
                     <li>Create an engaging and recognizable brand design</li>
                     <li>Refactor code to create, use, and reuse React components</li>
                     <li>Use props for component variations</li>
