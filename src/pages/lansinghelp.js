@@ -130,6 +130,16 @@ const LansingHelp = () => {
                         maxHeight={800} />
                 </div>
             </div>
+                <p className={textDescription}>Lastly, I had a blast coming up with the brand and app designs. I found inspiration in the brand logo from the Aborigine culture. This particular symbol represents community, which is why I felt it was a terrific inspirational image to work with in developing the app logo.</p>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/lhgicon.png"
+                        alt="Image of Lansing Help Guide Branding Logo of Aboriginal symbol representing community"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
 
             <div className={contentWrapper}>
                 <h3 className={subheading}>Problems Encountered</h3>
