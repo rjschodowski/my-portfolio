@@ -150,14 +150,10 @@ const LansingHelp = () => {
                     <li>Iterate between prototyping and getting user feedback, to better meet user needs</li>
                     <li>Create an engaging and recognizable brand design</li>
                     <li>Refactor code to create, use, and reuse React components</li>
-                    <li>Use props for component variations</li>
                     <li>Perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
-                    <li>Install and configure plugins</li>
                     <li>Troubleshoot site rendering problems</li>
                     <li>Enable the project for SEO</li>
-                    <li>Use and modify Material UI components</li>
-                    <li>Convert it to a progressive web app</li>
-                    <li>Deploy the project to Netlify</li>
+                    <li>Convert project to a progressive web app</li>
                 </ul>
                 <p className={textDescription}>
                  Overall this project pushed me to follow the human-centered design process from start to finish, and it also taught me to think more programmatically while maintaining the goal of providing a positive user experience. I also gained a lot of confidence in solving problems utilizing internet searches and consulting with other seasoned designers and developers.
