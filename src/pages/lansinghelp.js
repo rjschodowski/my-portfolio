@@ -73,6 +73,40 @@ const LansingHelp = () => {
             </div>
 
             <div className={contentWrapper}>
+                <h3 className={subheading}>Conceptualization</h3>
+                <p className={textDescription}>Prior to this project, I had already begun working on a website for Lansing residents and visitors, 
+                    affectionately called Dónde Lansing.
+                </p>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/dondelansingmockup.png"
+                        alt="Desktop version view of Dónde Lansing website"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+                <p className={textDescription}>I had been starting to take my sketches and journey map to create a prototype, but it 
+                    was when I realized the specific need for our independent living youth and other Lansing newcomers to have an simpler way to 
+                    access emergency and other community services that I decided to shift from a full-blown visitor's guide to a human services 
+                    resource for people in need, especially those arriving from different lands.
+                </p>
+                <p className={textDescription}>I started by taking the many resources I had already accumulated for the original website idea, and I 
+                    selected the categories that seemed to come up most from our youth and also those that also are essential, such as domestic violence 
+                    support centers.
+                </p>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/desktopview.png"
+                        alt="Desktop version view of application's screen"
+                        placeholder="blurred"
+                        layout="constrained"
+                        maxWidth={800}
+                        maxHeight={800} />
+                </div>
+            </div>
+
+            <div className={contentWrapper}>
                 <h3 className={subheading}>Problems Encountered</h3>
                 <p className={textDescription}>
                     I knew during the ideation and design process that I wanted to include an emergency 911 button for users to easily access if needed. I initially thought to put the button at the top of the page under the header for visibility. I had a few of the youth and colleagues test out the app for user experience feedback, and the feedback I received was that the button may be touched unintentionally since it is likely the first thing the user will see. This feedback helped me to move the button to the footer component, where it is still visible and easily accessible, but less likely to be unintentionally pressed.
@@ -89,6 +123,7 @@ const LansingHelp = () => {
                 </p>
                 <ul className={list}>
                     <li>Create a prototype, get user feedback, and iterate on the product design to better meet the users' needs</li>
+                    <li>Create an engaging and recognizable brand design</li>
                     <li>Refactor code to create, use, and reuse React components</li>
                     <li>Use props for component variations</li>
                     <li>Perform a GraphQL query and add the code into Gatsby to make site features dynamic</li>
