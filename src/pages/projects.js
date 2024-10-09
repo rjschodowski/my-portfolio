@@ -55,7 +55,7 @@ const Projects  = () => {
                 </div>
                 <div className={projectRow}>
                 <div className={project}>
-                    <Link to="/siteconstruction">
+                    <a href="https://issuu.com/rjschodowski/docs/woof2wordsbranddevelopmentguide" alt="Woof2Words Brand Development Guide" target="_blank" rel="noreferrer">
                         <div className={projectImage}>
                             <StaticImage
                                 src="../images/Woof2Words.png"
@@ -71,7 +71,7 @@ const Projects  = () => {
                         <Button variant="contained" color="primary">
                             VIEW PROJECT
                         </Button>
-                    </Link>
+                    </a>
                 </div>
 
                     <div className={project}>
